@@ -1,0 +1,82 @@
+         
+        fieldset {
+        	padding: 8vh 20px !important;
+            padding: 50px 20px;
+            border: solid 3px #9e7c23;
+            background: url(../images/m.jpg) repeat-y 0 0;
+            border-radius: 10px;
+            position: absolute;
+            left: 10%;
+            top: 22%;
+            width: 80%;
+            height: 30vh !important;
+            display: -webkit-flex;     
+		    display:flexbox;
+		    display:flex;
+		    align-items: center;
+		    -webkit-align-items: center;
+		    justify-content: center;
+		    -webkit-justify-content: center;
+		    text-align: center;
+		    box-sizing: border-box;
+		    display: none;
+		    z-index: 21;
+        }
+        
+       
+        
+        fieldset .close1 {
+		    width: 31px;
+		    height: 31px;
+		    background: url(../image/close1.png) no-repeat center center;
+		    background-size: 100% 100%;
+		    position: absolute;
+		    top: 0%;
+		    right: 0%;
+		}
+        
+        
+        #inputCode{
+        	background: #e1b649;
+        	width: 40%;
+        	position: relative;
+        	top: -10px;
+        }
+
+        .inputs {
+            display: inline-block;
+            height: 30px;
+            border: none;
+            border-radius: 10px;
+            color: #EEEEEE;
+            padding-left: 10px;
+
+        }
+
+        #submit {
+            background: #ffc11b;
+            padding: 0 40px;
+            cursor: pointer;
+            margin-top: 15px;
+            width: 60%;
+            color: red;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        #submit:hover {
+            background: palevioletred;
+        }
+
+        .mycode {
+            display: inline-block;
+            width: 80px;
+            height: 30px;
+            border-radius: 10px;
+            box-shadow: #000000 inset 0px 0px 2px;
+            
+        }
+        /*.mycode div span{
+        	font-size: 20px;
+        }*/
+

@@ -1,0 +1,5096 @@
+/*reset*/
+body, h1, h2, h3, h4, h5, p, dl, dd, ul, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+
+em {
+    font-style: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input, textarea {
+    outline: none;
+    border: none;
+}
+
+input[type='text']{font-size:12px;line-height:30px;}
+
+textarea {
+    resize: none;
+    overflow: auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    font-family: "微软雅黑", arial;
+    margin: 0 auto;
+    background-size: 100% auto;
+}
+
+a, input, span, div ,li {
+   -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+}
+
+
+
+/*遮罩*/
+#screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.76;
+    filter: alpha(opcity=76);
+    background: #000;
+    z-index: 20;
+    display: none;
+}
+#screen1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.76;
+    filter: alpha(opcity=76);
+    background: #000;
+    z-index: 20;
+    display: none;
+}
+#screen3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.76;
+    filter: alpha(opcity=76);
+    background: #000;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    height: 100vh !important;
+    display: none;
+}
+
+/*登录*/
+#page {
+    width: 100%;
+    overflow: hidden;
+}
+
+.luogou {
+    position: absolute;
+    display: block;
+    height: 180px;
+    top: 17px;
+    left: 50%;
+    margin-left: -41%;
+    z-index: 2;
+    -webkit-animation: drop 0.8s ease-in-out forwards;
+	animation: drop 0.8s ease-in-out forwards;
+}
+
+@-webkit-keyframes drop {
+    from {
+        top: -220px;
+    }
+    to {
+        top: 17px;
+    }
+}
+@keyframes drop {
+    from {
+        top: -220px;
+    }
+    to {
+        top: 17px;
+    }
+}
+
+#loginForm1 {
+    width: 100%;
+    min-heightheight: 265px;
+    background: url(../image/loginFormBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-top: 43%;
+    padding-top: 17%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 4;
+    overflow: hidden;
+}
+
+#loginForm1 input {
+    display: block;
+    width: 63%;
+    height: 30px;
+    background: #eabc9a;
+    margin: 0px auto;
+    border: none;
+    border-radius: 4px;
+    color: #fefffd;
+    font-size: 15px;
+    text-indent: 5px;
+    font-weight: bold;
+}
+
+#loginForm1 input.mobile {
+    margin-bottom: 10px;
+}
+
+#loginForm1 .loginBtn {
+    display: block;
+    width: 53%;
+    height: 47px;
+    background: url(../image/loginBtn.png) no-repeat center center;
+    background-size: 100% 100%;
+    border: none;
+    margin: 20px auto;
+}
+
+.forget {
+    float: right;
+    width: 29%;
+    height: 35px;
+    background: url(../image/forget.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin: 40px 12% 0;
+}
+
+/*placeholder  color*/
+input.loginInput::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input.loginInput:-moz-placeholder {
+    color: #fff;
+}
+
+input.loginInput::-moz-placeholder {
+    color: #fff;
+}
+
+input.loginInput:-ms-input-placeholder {
+    color: #fff;
+}
+
+/*忘记密码*/
+#forgetPassBox {
+    width: 100%;
+    height: 350px;
+    background: url(../image/forgetPassBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 100;
+    top: 16%;
+    box-sizing: border-box;
+    display: none;
+}
+/*交易中心*/
+.shopCenterLink {
+    position: absolute;
+    width: 13%;
+    height: 52%;
+    top: 22%;
+    left: 8%;
+    z-index: 9999999;
+}
+
+.shopCenterLink a {
+    display: block;
+    width: 100%;
+    height: 33%;
+    margin-bottom: 4px;
+}
+#forgetPassBox .close1 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 22%;
+    right: 10%;
+}
+
+#forgetPassBox .chengePassForm {
+    margin: 28% auto;
+    width: 81%;
+}
+
+#forgetPassBox .chengePassForm input {
+    display: block;
+    width: 78%;
+    height: 25px;
+    line-height: 30px;
+    margin: 0px auto 12px;
+    border: none;
+    background: #e1b649;
+    border-radius: 25px;
+    box-shadow: inset 2px 2px 1px 1px rgba(0, 0, 0, .2);
+    text-indent: 10px;
+    color: #835f04;
+    font-weight: bold;
+}
+
+#forgetPassBox .chengePassForm .checkCodeBox {
+    display: block;
+    width: 78%;
+    margin: 0px auto 12px;
+    overflow: hidden;
+}
+
+#forgetPassBox .chengePassForm .checkCodeBox .checkCode {
+    margin: 0;
+    width: 58%;
+    float: left;
+    margin-right: 8.5%;
+}
+
+#forgetPassBox .chengePassForm .getCodeBtn {
+    width: 33%;
+    height: 25px;
+    line-height: 25px;
+    display: block;
+    float: left;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    text-indent: 0px;
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    margin: 0;
+}
+#forgetPassBox .chengePassForm .getCodeBtn0{
+    background: url(../image/getCheckCode0.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+#forgetPassBox .chengePassForm .getCodeBtn1{
+    background: url(../image/getCheckCode1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+#forgetPassBox .chengePassForm .confirmChange {
+    margin: 10px auto;
+    height: 40px;
+    display: block;
+    border: none;
+    width: 60%;
+    background: url(../image/confirmChange.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+input.forgetInput::-ms-input-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.forgetInput::-webkit-input-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.forgetInput:-moz-placeholder, textarea:-moz-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.forgetInput::-moz-placeholder, textarea::-moz-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*提示消息*/
+#infoBox {
+    position: absolute;
+    width: 100%;
+    height: 375px;
+    background: url(../image/infoBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 100000001;
+    top: 12%;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+#infoBox .close8 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+
+#infoBox .infoText {
+    width: 100%;
+    color: #815f0f;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 190px;
+}
+
+/*首页*/
+.page {
+    width: 100%;
+    height: 603px;
+}
+
+#gonggao {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background: #94dffb;
+    /*background: -webkit-linear-gradient(left, #94dffb, #94dffb 5%, #94dffb,#94dffb 38%,#73caea 39%,#8bd9f6 40%, #93defa 92%, #7aceed 95%,#94dffb 96%, #94dffb);*/
+    /*background: -webkit-linear-gradient(left, #94dffb, #94dffb 5%,  #93defa 92%, #7aceed 95%,#94dffb 96%, #94dffb);*/
+}
+
+#gonggao .laba {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin-left: 2.5%;
+    background: url(../image/index/laba.png) no-repeat center center;
+    background-size: 68% 68%;
+}
+
+#gonggao .wanzhengText {
+    float: left;
+    color: red;
+    margin-right: 10px;
+}
+
+#gonggao .warp {
+    float: left;
+    overflow: hidden;
+    width: 200px;
+}
+
+@keyframes moveText {
+    from {
+        left: 20px;
+    }
+    to {
+        left: -160px;
+    }
+}
+@-webkit-keyframes moveText {
+    from {
+        left: 20px;
+    }
+    to {
+        left: -160px;
+    }
+}
+#gonggao .warp .movetext {
+    position: relative;
+    left: 10px;
+    top: 0px;
+    width: 180px;
+    margin: 0 auto;
+    z-index: 23;
+    -webkit-animation: 3s moveText infinite linear;
+    animation: 3s moveText infinite linear;
+}
+
+#zhanghu {
+    width: 90%;
+    height: 52px;
+    margin: 7px auto;
+    background: url(../image/index/zhanghuBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#zhanghu img {
+    display: block;
+    width: 9%;
+    height: 30px;
+    position: absolute;
+    top: 21%;
+    left: 4%;
+}
+
+#zhanghu span {
+    color: #835f04;
+}
+
+#zhanghu .vipUser {
+    position: absolute;
+    top: 12%;
+    left: 25.8%;
+}
+
+#zhanghu .dogNum1 {
+    position: absolute;
+    top: 50%;
+    left: 21%;
+}
+
+#zhanghu .dogNum2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+#zhanghu .shezhi {
+    width: 11%;
+    height: 35px;
+    background: red;
+    float: right;
+    margin: 7px 0 0 0;
+    background: url(../image/index/shezhi.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#zhanghu .dogEmail {
+    width: 11%;
+    height: 35px;
+    background: blueviolet;
+    float: right;
+    margin: 7px 3% 0 2%;
+    background: url(../image/index/dogEmail.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#tuBiao {
+    position: absolute;
+    width: 84%;
+    height: 66%;
+    background: url(../image/index/tubaioBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin: 20px auto 120px;
+    left: 8%;
+}
+
+#tuBiao #container {
+    min-width: 380px !important;
+    height: 370px !important;
+    margin-left: -45px !important
+}
+
+#tuBiao .intoBtn {
+    width: 71%;
+    height: 44px;
+    background: url(../image/index/intoBtn.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 15.7%;
+    bottom:10px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    height: 57px;
+}
+
+#footer ul {
+    width: 100%;
+    height: 100%;
+}
+
+#footer ul li {
+    display: block;
+    width: 25%;
+    height: 100%;
+    background: red;
+    float: left;
+}
+
+#footer ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#footer ul li:nth-of-type(1) {
+    background: url(../image/index/shopCenter.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#footer ul li:nth-of-type(2) {
+    background: url(../image/index/dogShop.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#footer ul li:nth-of-type(3) {
+    background: url(../image/index/dogDaily.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#footer ul li:nth-of-type(4) {
+    background: url(../image/index/gameRule.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+/*公告*/
+#noticeBox {
+    width: 100%;
+    height: 435px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 100000;
+    background: url(../image/index/noticeMuban.png) no-repeat center center;
+    background-size: 100% 100%;
+    display: none;
+}
+
+#noticeBox .close13 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2%;
+    right: 8%;
+}
+
+#noticeBox ul {
+    width: 68%;
+    height: 314px;
+    padding: 10px 15px;
+    margin: 80px auto;
+    box-sizing: border-box;
+    overflow: auto;
+	-webkit-overflow-scrolling: touch !important;
+}
+
+#noticeBox ul li {
+    display: block;
+    width: 100%;
+    background: linear-gradient(top, #f7e8a3, #f0dc7f);
+    background: -webkit-linear-gradient(top, #f7e8a3, #f7e8a3);
+    margin-bottom: 6px;
+    border-radius: 5px 0 5px 0;
+
+    padding: 0px 0px 1px 0;
+    border: 2px solid #9e7c23;
+}
+
+#noticeBox ul li .top {
+    width: 100%;
+    height: 22px;
+    line-height: 22px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+}
+
+#noticeBox ul li .top .text {
+    display: block;
+    float: left;
+    text-indent: 30px;
+    background: url(../image/index/textIcon.png) no-repeat left center;
+    background-size: 30px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    color: #724f1c;
+}
+
+#noticeBox ul li .top .time {
+    display: block;
+    float: right;
+    color: #e08b15;
+    font-weight: bold;
+}
+
+#noticeBox ul li .contentBox {
+    margin: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: #e0d084;
+    overflow: hidden;
+    padding: 10px 0;
+    color: #9f6725;
+    font-weight: bold;
+    box-shadow: inset 0px 3px 2px 0px rgba(192, 161, 38, .8);
+    display: none;
+}
+
+#noticeBox ul li:nth-of-type(1) .contentBox {
+    display: block;
+}
+
+#noticeBox ul li .contentBox span {
+    display: block;
+    width: 10%;
+    text-align: center;
+    float: left;
+}
+
+#noticeBox ul li .contentBox p {
+    width: 85%;
+    float: left;
+}
+
+/*选择头像*/
+#faceBox {
+    width: 81.3%;
+    height: 435px;
+    background: url(../image/index/faceBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 9.3%;
+    display: none;
+    z-index: 1000000;
+}
+
+#faceBox .close4 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2%;
+    right: -2%;
+}
+
+#faceBox .faceUl {
+    overflow: auto;
+    width: 78%;
+    height: 266px;
+    margin: 85px auto;
+    padding: 10px 10px 0 10px;
+    box-sizing: border-box;
+
+}
+
+#faceBox .faceUl li {
+    position: relative;
+    width: 29%;
+    height: 64px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    opacity:0.8;
+}
+#faceBox .faceUl li .duigou{
+    position: absolute;
+    width:40%;
+    height:40%;
+    right:-4%;
+    bottom:6%;
+    background: url(../image/index/duigou.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index:2;
+    display: none;
+}
+#faceBox .faceUl li img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#faceBox .faceUl li:nth-of-type(3) {
+    margin-right: 0px;
+    opacity:1;
+}
+
+#faceBox .faceUl li:nth-of-type(6) {
+    margin-right: 0px;
+}
+
+#faceBox .faceUl li:nth-of-type(9) {
+    margin-right: 0px;
+}
+
+#faceBox .faceUl li:nth-of-type(12) {
+    margin-right: 0px;
+}
+
+#faceBox .ok {
+    width: 80%;
+    height: 42px;
+    background: url(../image/index/okBtn.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin: -70px auto;
+}
+
+/*游戏设置*/
+#gameSet {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../image/index/gameSet.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 0;
+    display: none;
+    z-index: 100000;
+}
+
+#gameSet .close8 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+
+#gameSet #music1 {
+    width: 20%;
+    height: 31px;
+
+    margin-left: 51%;
+    margin-top: 125px;
+}
+
+#gameSet .music1 {
+    background: url(../image/index/on.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#gameSet .music2 {
+    background: url(../image/index/off.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#gameSet #music2 {
+    width: 20%;
+    height: 31px;
+    margin-left: 51%;
+    margin-top: 32px;
+}
+
+#gameSet .on {
+    background: url(../image/index/on.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#gameSet .off {
+    background: url(../image/index/off.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#gameSet .exit {
+    width: 49%;
+    height: 43px;
+    background: url(../image/index/exit.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin: 10px auto;
+}
+
+/*更改密码*/
+#changePassBox {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../image/index/mubanBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 2;
+    top: 23%;
+    left: 0;
+    display: none;
+    z-index: 100000;
+}
+
+#changePassBox .close2 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 22%;
+    right: 7%;
+}
+
+#changePassForm {
+    width: 64.5%;
+    height: 186px;
+    margin: 120px auto;
+}
+
+#changePassForm input {
+    display: block;
+    border: none;
+    width: 80%;
+    height: 25px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: #e1b649;
+    border-radius: 12.5px;
+    text-indent: 10px;
+}
+
+#changePassForm .okBtn {
+    display: block;
+    width: 75%;
+    height: 42px;
+    margin: 10px auto;
+    border: none;
+    background: url(../image/index/okBtn1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+input.changeInput::-ms-input-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.changeInput::-webkit-input-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.changeInput:-moz-placeholder, textarea:-moz-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+input.changeInput::-moz-placeholder, textarea::-moz-placeholder {
+    color: #835f04;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*收件箱*/
+#inBox {
+    width: 81%;
+    height: 434px;
+    background: url(../image/index/inBoxBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 9.3%;
+    display: none;
+    z-index: 1000000;
+}
+
+#inBox .close3 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2%;
+    right: -2%;
+}
+
+#inBox ul {
+    width: 85%;
+    height: 318px;
+    margin: 81px auto;
+    overflow: auto;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+	-webkit-overflow-scrolling: touch !important;
+}
+
+#inBox ul li {
+    position: relative;
+    width: 85%;
+    height: 50px;
+    background: url(../image/index/textBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin: 0 auto 3px;
+}
+
+#inBox ul li .textBox {
+    width: 78%;
+    color: #9f6725;
+    position: absolute;
+    top: 33%;
+    left: 17%;
+    overflow: hidden;
+}
+
+#inBox ul li .textBox .getDogNum {
+    float: left;
+    font-weight: bold;
+}
+
+#inBox ul li .textBox .date {
+    float: right;
+}
+
+/*游戏规则*/
+#gameRulePanel {
+    width: 81.3%;
+    height: 435px;
+    background: url(../image/index/gameRulePanel.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 2;
+    position: absolute;
+    top: 5%;
+    left: 9.3%;
+    display: none;
+    z-index: 1000000;
+}
+
+#gameRulePanel .close5 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -2%;
+    right: -2%;
+}
+
+#gameRulePanel ul {
+    width: 85%;
+    height: 314px;
+    margin: 81px auto;
+    overflow: auto;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+}
+
+#gameRulePanel ul li {
+    width: 72%;
+    height: 90px;
+    background: url(../image/index/ruleText.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: 0 auto 3px;
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+#gameRulePanel ul li em{
+    float: left;
+    padding-left: 7%;
+    color: white;
+    position: relative;
+    top: -3%;
+}
+#gameRulePanel ul li span {
+    float: left;
+    display: block;
+    width: 74.5%;
+    height: 63px;
+    word-wrap: break-word;
+    word-break: normal;
+    margin: 0 0 0 8%;
+    font-weight: bold;
+    color: #9f6725;
+    overflow: auto;
+}
+
+
+/*小狗购物*/
+#smallDogShop {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../image/index/mianban1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 2;
+    top: 10%;
+    left: 0;
+    display: none;
+    z-index: 100000;
+}
+
+#smallDogShop .close6 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+
+#smallDogShop .smallDogBtn {
+    width: 44%;
+    height: 43px;
+    margin: 66% auto;
+    background: url(../image/index/smallDogShopBtn.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+
+/*交易中心1*/
+
+
+
+#neWDogFieldForm {
+    text-align: center;
+    width: 69%;
+    height: 410px;
+    margin: 120px auto 0 82px;
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+
+#neWDogFieldForm input {
+    z-index: 10;
+    text-indent: 25px;
+    width: 89%;
+    height: 30px;
+    border-radius: 15px;
+    background: #ffd29d;
+    margin-bottom: 15px;
+}
+
+#neWDogFieldForm .sexBox {
+    margin: 0 auto 30px;
+    width: 89%;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 15px;
+    font-weight: bold;
+    color: #454545;
+    padding-left: 4%;
+    box-sizing: border-box;
+}
+
+#neWDogFieldForm .sexBox input[type="radio"] {
+    margin: 3px 3px 0px 5px;
+    display: none;
+}
+
+#neWDogFieldForm .sexBox label {
+    padding: 3px 0 3px 40px;
+    cursor: pointer;
+    background: url(../image/shopCenter/radioOff.png) no-repeat left center;
+    margin-right: 10px;
+}
+
+#neWDogFieldForm .sexBox label.checked {
+    background: url(../image/shopCenter/radioOn.png) no-repeat left center;
+}
+
+input.nDFFormInput::-webkit-input-placeholder {
+    color: #bdbdbd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input.nDFFormInput:-moz-placeholder {
+    color: #bdbdbd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input.nDFFormInput::-moz-placeholder {
+    color: #bdbdbd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input.nDFFormInput:-ms-input-placeholder {
+    color: #bdbdbd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#neWDogFieldForm p {
+    font-size: 13px;
+    font-weight: bold;
+    color: #5f3300;
+    text-align: left;
+    margin-left: 15%;
+}
+
+#neWDogFieldForm .subBtn {
+    margin: 20px auto;
+    width: 82%;
+    height: 45px;
+    background: url(../image/shopCenter/ok1.png) no-repeat center center;
+    background-size: 100% 100%;
+    border: none;
+}
+
+/*交易中心2*/
+#giveDog, #zhuanRecord, #neWDogField {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: url(../image/shopCenter/shopCenterTextBg1.png) no-repeat 22px 60px;
+    background-size: 90% 90%;
+    top:50px;
+    min-height:550px;
+}
+#neWDogField {
+    background-image: url(../image/shopCenter/shopCenterTextBg1.png);
+}
+#giveDog {
+    background-image:url(../image/shopCenter/shopCenterTextBg2.png)
+}
+
+#giveDogForm {
+    text-align: center;
+    width: 70%;
+    height: 410px;
+    margin: 40% 0 40px 21.3%;
+    position: relative;
+    left: 0;
+    top: 14px;
+    z-index: 10;
+}
+
+#giveDogForm input {
+    text-indent: 25px;
+    width: 89%;
+    height: 30px;
+    border-radius: 15px;
+    background: #ffd29d;
+    margin-bottom: 30px;
+}
+
+#giveDogForm p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #5f3300;
+    margin-bottom: 12px;
+}
+
+#giveDogForm p span {
+    color: red;
+}
+
+#giveDogForm .switchBox {
+    width: 89%;
+    height: 32px;
+    margin: 0 auto;
+}
+
+#giveDogForm .switchBox span {
+    float: left;
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    color: #e64040;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#giveDogForm .switchBox #switch {
+    width: 25.5%;
+    margin-right: 10px;
+}
+
+#giveDogForm .switchBox .switchOn {
+    background: url(../image/shopCenter/switchOn.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#giveDogForm .switchBox .switchOff {
+    background: url(../image/shopCenter/switchOff.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#giveDogForm .subBtn {
+    margin: 20px auto;
+    width: 82%;
+    height: 45px;
+    background: url(../image/shopCenter/ok1.png) no-repeat center center;
+    background-size: 100% 100%;
+    border: none;
+}
+
+#checkCodeBox{
+    width: 100%;
+    height:26%;
+    position: absolute;
+    z-index: 15;
+    background: url(../image/farm/okInfo.png) no-repeat center center;
+    background-size: 100% 100%;
+    top: 15%;
+    display: none;
+    padding-top:45%;
+}
+#checkCodeBox .checkCodeBoxclose{
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+#checkCodeBox input{
+    width: 27%;
+    margin: 0px 0 0 2%;
+    height: 30px;
+    line-height:30px;
+    background: #e1b649;
+    border-radius: 6px;
+    text-indent: 5px;
+    color: white;
+}
+#checkCodeBox input:nth-of-type(1){
+    margin-left: 21%;
+}
+#checkCodeBox .getCodeBtn0{
+    background: url(../image/getCheckCode0.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+#checkCodeBox .getCodeBtn1{
+    background: url(../image/getCheckCode1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+#checkCodeBox .checkBtn{
+    width: 62%;
+    height: 40px;
+    margin: 40px auto 0px;
+    background: url(../image/farm/queding.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+input.yZCode::-webkit-input-placeholder {
+    color: #835f04;
+}
+
+input.yZCode:-moz-placeholder {
+    color: #835f04;
+}
+
+input.yZCode::-moz-placeholder {
+    color: #835f04;
+}
+
+input.yZCode:-ms-input-placeholder {
+    color: #835f04;
+}
+
+
+
+/*交易中心3 4*/
+#houseTop {
+    width: 100%;
+    height: 210px;
+    background: url(../image/shopCenter/houseTop.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#houseTop .back {
+    display: block;
+    float: left;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    left: 45px;
+    top: 55px;
+    z-index: 999;
+}
+
+#houseTop .face {
+    display: block;
+    float: left;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    position: absolute;
+    left: 317px;
+    top: 48px;
+    z-index: 999;
+}
+
+#shopRecord {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background: url(../image/shopCenter/shopCenterTextBg3.png) no-repeat 22px 60px;
+    background-size: 90% 90%;
+    top:50px;
+    min-height:550px;
+}
+
+#zhuanRecord {
+    background-image: url(../image/shopCenter/shopCenterTextBg4.png)
+}
+
+#shopRecord .tab .leftTab, #zhuanRecord .tab .leftTab {
+    display: block;
+    width: 38%;
+    height: 44px;
+    position: absolute;
+    z-index: 100;
+    border-radius: 8px;
+}
+
+#shopRecord .tab .leftTab {
+    left: 70px;
+    top: 90px;
+}
+
+#zhuanRecord .tab .leftTab {
+    left: 69px;
+    top: 90px;
+}
+
+#shopRecord .tab .rightTab, #zhuanRecord .tab .rightTab {
+    float: left;
+    width: 38%;
+    height: 45px;
+    position: absolute;
+    left: 214px;
+    top: 38px;
+    z-index: 100;
+    border-radius: 8px;
+}
+
+#shopRecord .tab .rightTab {
+    left: 214px;
+    top: 48px;
+}
+
+#zhuanRecord .tab .rightTab {
+    left: 212px;
+    top: 44px;
+}
+
+#shopRecord ul, #zhuanRecord ul {
+    margin-top: 170px;
+    margin-left: 80px;
+    overflow: auto;
+    width: 70%;
+    height: 305px;
+}
+
+
+
+#shopRecord ul li, #zhuanRecord ul li {
+    overflow: hidden;
+    width: 100%;
+}
+
+#shopRecord ul li span, #zhuanRecord ul li span {
+    color: #945710;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+#shopRecord ul li span:nth-of-type(1), #zhuanRecord ul li span:nth-of-type(1) {
+    width: 30%;
+}
+
+#shopRecord ul li span:nth-of-type(2), #zhuanRecord ul li span:nth-of-type(2) {
+    width: 24%;
+}
+
+#shopRecord ul li span:nth-of-type(3), #zhuanRecord ul li span:nth-of-type(3) {
+    width: 23%;
+}
+
+#shopRecord ul li span:nth-of-type(4), #zhuanRecord ul li span:nth-of-type(4) {
+    width: 23%;
+}
+
+
+
+#shopRecord .fenye {
+    text-align: center;
+    width: 76%;
+    height: 26px;
+    margin-left: 19%;
+    overflow: hidden;
+    margin-top:5px;
+}
+#zhuanRecord .fenye {
+    text-align: center;
+    width: 76%;
+    height: 26px;
+    margin-left: 19%;
+    overflow: hidden;
+    margin-top:5px;
+}
+#shopRecord .fenye .fenYeLeft, #zhuanRecord .fenye .fenYeLeft, .dailyRecord .fenye .fenYeLeft {
+    float: left;
+    width: 26px;
+    height: 26px;
+    background: url(../image/shopCenter/left.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-left: 18%;
+}
+
+#shopRecord .fenye .fenshu, #zhuanRecord .fenye .fenshu, .dailyRecord .fenye .fenshu {
+    font-size: 15px;
+    font-weight: bold;
+    float: center;
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center
+}
+
+#shopRecord .fenye .fenYeRight, #zhuanRecord .fenye .fenYeRight, .dailyRecord .fenye .fenYeRight {
+    float: right;
+    width: 26px;
+    height: 26px;
+    background: url(../image/shopCenter/right.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin-right: 18%;
+}
+
+/*养狗日志*/
+.link {
+    position: absolute;
+    width: 12.5%;
+    height: 455px;
+    top: 88px;
+    left: 14px;
+}
+
+.link a {
+    display: block;
+    width: 100%;
+    height: 109px;
+    margin-bottom: 4px;
+}
+
+/*生长记录*/
+.dailyRecord {
+    background: url(../image/grow/grow.png) no-repeat left top;
+    background-size: 100% 100%;
+}
+
+#TopBox {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#TopBox .back {
+    display: block;
+    float: left;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    height: 34px;
+    margin: 42px 0 0 32px;
+}
+
+#TopBox .face {
+    display: block;
+    float: right;
+    width: 34px;
+    height: 34px;
+    border-radius: 17px;
+    margin-right: 23px;
+    margin-top: 27px;
+}
+
+.grow ul {
+    width: 73%;
+    height: 240px;
+    margin: 65px 0 0 21%;
+}
+
+.grow ul li {
+    width: 100%;
+    height: 30px;
+}
+
+.grow ul li span {
+    text-align: center;
+    float: left;
+    display: block;
+    width: 16.6%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #b88c57;
+}
+
+.dailyRecord .fenye {
+    text-align: center;
+    width: 76%;
+    height: 26px;
+    margin-left: 19%;
+    overflow: hidden;
+    margin-top: 39px;
+}
+
+.dailyRecord ol {
+    width: 73%;
+    height: 60px;
+    overflow: auto;
+    margin: 20px 0 0 21%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #744c18;
+}
+
+.dailyRecord ol li {
+    margin-top: 18px;
+    text-align: center;
+    display: block;
+    float: left;
+    width: 33.3%;
+    height: 30px;
+}
+
+/*打扫记录*/
+.clean {
+    background: url(../image/grow/clean.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.clean ul {
+    width: 73%;
+    height: 240px;
+    margin: 65px 0 0 21%;
+}
+
+.clean ul li {
+    width: 100%;
+    height: 30px;
+}
+
+.clean ul li span {
+    text-align: center;
+    float: left;
+    display: block;
+    width: 33.3%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #b88c57;
+}
+
+/*喂养记录  增养记录*/
+.feed {
+    background: url(../image/grow/feed.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.breeding {
+    background: url(../image/grow/breeding.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.feed ul, .breeding ul {
+    width: 73%;
+    height: 240px;
+    margin: 65px 0 0 21%;
+}
+
+.feed ul li, .breeding ul li {
+    width: 100%;
+    height: 30px;
+}
+
+.feed ul li span, .breeding ul li span {
+    text-align: center;
+    float: left;
+    display: block;
+    width: 25%;
+    height: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #b88c57;
+}
+
+/*狗场*/
+#notice {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    padding: 0 4%;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+#notice .laba {
+    display: block;
+    float: left;
+    width: 44%;
+    text-indent: 17px;
+    background: url(../image/index/laba.png) no-repeat 0 4px;
+    background-size: 17px 17px;
+    color: red;
+}
+
+#notice .noticeText {
+    float: left;
+    width: 48%;
+}
+
+#contain {
+    width: 100%;
+    height: 603px;
+
+    padding: 7px 0;
+    box-sizing: border-box;
+}
+
+#contain .account {
+    margin: 0px auto;
+    width: 89.3%;
+    height: 50px;
+    position: relative;
+}
+
+#contain .account span {
+    position: absolute;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    color: #835f04;
+}
+
+#contain .account .face {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    left: 4%;
+    top: 14px;
+}
+
+#contain .account .name {
+    width: 35.8%;
+    height: 17px;
+    left: 25%;
+    top: 8px;
+    border-radius: 8px;
+}
+
+#contain .account .numA {
+    width: 20%;
+    height: 17px;
+    left: 21%;
+    top: 28px;
+    border-radius: 8px;
+}
+
+#contain .account .numB {
+    width: 20%;
+    height: 17px;
+    left: 50%;
+    top: 28px;
+    border-radius: 8px;
+}
+
+#contain .account .myFrieng {
+    width: 38px;
+    height: 38px;
+    background: url(../image/farm/myFriend.png) no-repeat 0 0;
+    background-size: 100% 100%;
+     left: 72.3%;
+	 top:8px;
+}
+
+#contain .account .myWareHouse {
+    width: 38px;
+    height: 38px;
+    background: url(../image/farm/myWareHouse.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    top: 8px;
+    left: 86%;
+}
+
+#contain .backBox {
+    margin: 4px auto;
+    width: 89.3%;
+    height: 28px;
+}
+
+#contain .backBox .back {
+    float: left;
+    width: 15%;
+    height: 28px;
+    background: url(../image/farm/back.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-left: 1.7%;
+    margin-top: 2px;
+}
+
+#contain .backBox .refresh {
+    float: right;
+    width: 15%;
+    height: 28px;
+    background: url(../image/farm/refresh.png) no-repeat center center;
+    background-size: 100% 100%;
+    margin-right: 2.5%;
+    margin-top: 2px;
+}
+
+#contain .dogFarm {
+    width: 88.8%;
+    height: 510px;
+    margin: 2px auto;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+#contain .dogFarm ul {
+    width: 100%;
+    height: 510px;
+	-webkit-overflow-scrolling: touch !important;
+    overflow: auto;
+}
+
+#contain .dogFarm ul.cleanDogUl {
+    height: 490px;
+}
+
+#contain .dogFarm ul li {
+    display: block;
+    width: 33.3%;
+    height: 118px;
+    float: left;
+    position: relative;
+
+}
+
+#contain .dogFarm ul li.type0 {
+    background: url(../image/farm/floor1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#contain .dogFarm ul li.type1 {
+    background: url(../image/farm/floor2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#contain .dogFarm ul li .img {
+    display: block;
+
+    /*top: 50px;
+	left: 60px;*/
+    z-index: 3;
+}
+
+#contain .dogFarm ul li .img1 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+#contain .dogFarm ul li .img2 {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+#contain .dogFarm ul li .img3 {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    left: 2px;
+}
+
+@-webkit-keyframes flash1 {
+    0% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+.new_gcn ul li .kaigouChang {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.2;
+    -webkit-animation: flash1 0.6s infinite linear alternate;
+    animation: flash1 0.6s infinite linear alternate;
+    display: none;
+    z-index: 1002;
+}
+
+.new_gcn ul li .zengyangOpacity {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.2;
+    -webkit-animation: flash1 0.6s infinite linear alternate;
+    animation: flash1 0.6s infinite linear alternate;
+    display: none;
+    z-index: 1002;
+}
+
+.new_gcn ul li .weiyangOpacity {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.2;
+    -webkit-animation: flash1 0.6s infinite linear alternate;
+    animation: flash1 0.6s infinite linear alternate;
+    display: none;
+    z-index: 1002;
+}
+
+.new_gcn ul li .shouhuo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.2;
+    -webkit-animation: flash1 0.6s infinite linear alternate;
+    animation: flash1 0.6s infinite linear alternate;
+    display: none;
+    z-index: 1002;
+}
+
+.new_gcn ul li .click {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0;
+    z-index: 2;
+    /*display: none;*/
+}
+
+#contain .dogFarm ul li .paopaoDog {
+    width: 57%;
+    height: 53px;
+    position: absolute;
+    left: 24px;
+    top: 28px;
+    background: url(../image/farm/paopaogou.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 19;
+}
+
+#contain .dogFarm ul li .paopao0 {
+    display: none;
+}
+
+#contain .dogFarm ul li .paopao1 {
+    display: block;
+}
+
+@-webkit-keyframes moveTop {
+    0% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+@keyframes moveTop {
+    0% {
+        top: 20px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+#contain .dogFarm ul li .dogText {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background: url(../image/farm/dogtext.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 98;
+    font-size: 12px;
+    color: #996b29;
+    text-align: center;
+    padding: 9px 0 0 0;
+    box-sizing: border-box;
+    z-index: 999;
+    display: none;
+    -webkit-animation: moveTop 0.1s linear forwards;
+    animation: moveTop 0.1s linear forwards;
+}
+
+#contain .dogFarm ul li .dogText div {
+    width: 100%;
+    height: 16px;
+    margin-bottom: 2px;
+    overflow-y: auto;
+}
+
+#contain .dogFarm ul li #langan {
+    width: 100%;
+    height: 26px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#contain .dogFarm ul li .langan {
+    width: 100%;
+    height: 26px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#contain .dogFarm ul li .jiahao {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    background: url(../image/farm/jiahao.png) no-repeat left bottom;
+    background-size: 70% 70%;
+    bottom: 35px;
+    left: 25px;
+    z-index: 200;
+    color: #ffffff;
+    text-align: right;
+    font-size: 18px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #e1e732;
+    /*display: none;*/
+}
+
+/*#contain .dogFarm ul li .jiahao0{
+	display: none;
+}
+#contain .dogFarm ul li .jiahao1{
+	display: block;
+}*/
+#contain .dogFarm ul li .langan1 {
+    background: url(../image/farm/langan1.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#contain .dogFarm ul li .langan2 {
+    background: url(../image/farm/langan2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#contain .dogFarm ul li .langan3 {
+    background: url(../image/farm/langan3.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#contain .dogFarm ul li .langan4 {
+    background: url(../image/farm/langan4.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#contain .dogFarm ul li .langan5 {
+    background: url(../image/farm/langan5.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+#footNav {
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    background: url(../image/farm/footerNav.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 19;
+}
+
+#footNav span {
+    width: 14%;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #9e7c23;
+    float: left;
+}
+
+#footNav span:nth-of-type(1) {
+    margin: 32px 0 0 4%;
+}
+
+#footNav span:nth-of-type(2) {
+    margin: 32px 0 0 14%;
+}
+
+#footNav span:nth-of-type(3) {
+    margin: 32px 0 0 13%;
+}
+
+#footNav span:nth-of-type(4) {
+    margin: 32px 0 0 12%;
+}
+
+/*开狗场*/
+#openDogfloor, #harvest {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../image/farm/muban1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 2;
+    top: 18%;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #815f0f;
+    z-index: 100000;
+}
+
+#openDogfloor {
+    display: none;
+}
+
+#openDogfloor .close9, #harvest .close10 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+
+#openDogfloor .text, #harvest .text {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 184px 0 0 0;
+}
+
+/*收获*/
+#harvest {
+    display: none;
+}
+
+#harvest .text span {
+    color: #ff7a0e;
+}
+
+/*清洗*/
+#cleaning {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../image/farm/muban2.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    z-index: 100000000000;
+    display: none;
+}
+
+#cleaning .close11 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+
+#cleaning .queding {
+    width: 62%;
+    height: 42px;
+    background: url(../image/farm/queding.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: 246px auto;
+}
+
+/*输入喂养/喂养数*/
+#feed {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(../image/farm/muban3.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #815f0f;
+    z-index: 1000000;
+}
+
+#feed .close12 {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+
+#feed .text {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 150px 0 0 0;
+}
+
+#feed input {
+    width: 40%;
+    height: 40px;
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background: #fdd781;
+    border-radius: 20px;
+    text-indent: 20px;
+}
+
+#feed .pan {
+    width: 40px;
+    height: 40px;
+    background: url(../image/farm/pan.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 52%;
+    right: 28%;
+}
+
+#feed .queding {
+    width: 62%;
+    height: 42px;
+    background: url(../image/farm/queding.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: 24px auto;
+}
+
+/*好友列表*/
+#friendList {
+    width: 100%;
+    height: 435px;
+    position: absolute;
+    top: 5%;
+    background: url(../image/farm/friendBg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    z-index: 10000;
+    display: none;
+}
+
+#friendList ul {
+    width: 66%;
+    height: 266px;
+    margin: 82px auto;
+    overflow: auto;
+    padding: 2px 0 0 0;
+    box-sizing: border-box;
+}
+
+#friendList .friendListClose {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -1%;
+    right: 9%;
+}
+
+
+
+#friendList ul li .top {
+    width: 100%;
+    height: 56px;
+}
+
+#friendList ul li .top img {
+    display: block;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 8px 0 0 13px;
+}
+
+#friendList ul li .top .vipBox {
+    float: left;
+}
+
+#friendList ul li .top .vipBox span {
+    display: block;
+}
+
+#friendList ul li .top .vipBox span.VipName {
+    color: #9f6725;
+    font-size: 13px;
+    margin: 6px 0 0 -2px;
+}
+
+#friendList ul li .top .vipBox span.num {
+    color: #9f6725;
+    font-size: 1px;
+    font-weight: bold;
+    margin: 4px 0 0 28px;
+}
+
+#friendList ul li .top .btn {
+    float: right;
+    width: 66px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    background: url(../image/farm/btn.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 15px 5px 0 0;
+}
+
+#friendList ul li .bottom {
+    color: #9f6725;
+    font-size: 12px;
+    margin: 6px 0 0 68px;
+}
+
+#friendList ul li .bottom .name {
+    display: block;
+    float: left;
+    width: 40px;
+    margin-right: 12px;
+}
+
+#friendList ul li .bottom .phone {
+    display: block;
+    float: left;
+}
+
+#friendList .bottomBtn {
+    width: 70%;
+    height: auto;
+    margin: -66px auto;
+}
+
+#friendList .bottomBtn .onekeyclean {
+    display: block;
+    float: left;
+    width: 46.7%;
+    height: 42px;
+    background: url(../image/farm/keyclean.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+#friendList .bottomBtn .yaoqing {
+    display: block;
+    float: right;
+    width: 46.7%;
+    height: 42px;
+    background: url(../image/farm/yaoqing.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+/*我的仓库*/
+#wareHouse {
+    width: 100%;
+    height: 435px;
+    position: absolute;
+    top: 5%;
+    background: url(../image/farm/ku.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    z-index: 10000;
+    display: none;
+}
+
+#wareHouse ul {
+    width: 66%;
+    height: 296px;
+    margin: 98px auto;
+    overflow: auto;
+    padding: 0px 0 0 0;
+    box-sizing: border-box;
+	-webkit-overflow-scrolling: touch !important;
+}
+
+#wareHouse .wareHouseClose {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: -1%;
+    right: 9%;
+}
+
+#wareHouse ul li {
+    width: 96%;
+    height: 56px;
+    margin: 0px auto 4px;
+    background: url(../image/farm/kuListBg.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+
+#wareHouse ul li img {
+    display: block;
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 8px 0 0 13px;
+}
+
+#wareHouse ul li .vipBox {
+    float: left;
+    width: auto;
+}
+
+#wareHouse ul li .vipBox span {
+    display: block;
+}
+
+#wareHouse ul li .vipBox .type {
+    color: #9f6725;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+}
+
+#wareHouse ul li .vipBox .num {
+    color: #9f6725;
+    font-weight: bold;
+    margin: 2px 0 0 11px;
+    background: #e1b649;
+    width: 70px;
+    text-indent: 10px;
+    border-radius: 6px;
+    box-shadow: inset 0px 2px 2px 1px rgba(120, 110, 62, .2);
+}
+
+#wareHouse ul li .vipBox p {
+    width: 85px;
+    height: auto;
+    line-height: 12px;
+    font-size: 12px;
+    color: #9f6725;
+    margin-left: 4px;
+}
+
+#wareHouse ul li .btn {
+    float: right;
+    width: 66px;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    background: url(../image/farm/btn0.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 15px 10px 0 0;
+}
+#wareHouse ul li .btn1{
+    background: url(../image/farm/btn1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+
+/*一键清洗*/
+#oneKeyCleans {
+    width: 18%;
+    height: 45px;
+    height: 8vh !important;
+    position: fixed;
+    bottom: 0;
+    z-index: 100000;
+    left: 41%;
+}
+
+.cleanDog1 {
+    background: url(../image/farm/cleanDog1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+.cleanDog0 {
+    background: url(../image/farm/cleanDog2.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+
+#cleanGif {
+    position: absolute;
+    display: block;
+    width: 43%;
+    height: auto;
+    top: 200px;
+    left: 28.4%;
+    z-index: 50;
+    display: none;
+}
+
+/*drag*/
+/*drag*/
+#drag{	width: 17.3%;	height: 145px;	position: absolute;	bottom: 4%;	left: 0;	z-index: 20;}
+.feederLever0{	}
+.feederLever1{	background: url(../image/farm/si1.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever2{	background: url(../image/farm/si2.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever3{	background: url(../image/farm/si3.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever4{	background: url(../image/farm/si4.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever5{	background: url(../image/farm/si5.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever6{	background: url(../image/farm/si6.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever7{	background: url(../image/farm/si7.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever8{	background: url(../image/farm/si8.png) no-repeat 0 0;	background-size: 100% 100%;}
+.feederLever9{	background: url(../image/farm/si9.png) no-repeat 0 0;	background-size: 100% 100%;}
+
+
+/*确定提示框*/
+#okInfo {
+    position: absolute;
+    width: 100%;
+    height: 435px;
+    background: url(../image/farm/okInfo.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    top: 10%;
+    z-index: 10000000;
+    text-align: center;
+    color: #815f0f;
+    font-size: 18px;
+    font-weight: bold;
+    display: none;
+}
+
+#okInfo .okInfoClose {
+    width: 31px;
+    height: 31px;
+    background: url(../image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 24%;
+    right: 9%;
+}
+
+#okInfo .infoxiaoxi {
+    width: 60%;
+    margin: 200px auto;
+}
+
+#okInfo .okInfoB {
+    width: 62%;
+    height: 40px;
+    background: url(../image/farm/queding.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    margin: -134px auto;
+}
+
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width: 1200px) {
+
+    #footer {
+        width: 60%;
+        height: 106px
+    }
+
+    #page {
+        width: 60%;
+        margin: auto
+    }
+
+    #tuBiao .intoBtn {
+        height: 75px
+    }
+
+    #smallDogShop, #gameRulePanel, #inBox, #gameSet {
+        width: 60%;
+        height: 700px;
+        left: 20%;
+        top: 5%
+    }
+
+    #gameRulePanel ul {
+        height: 460px;
+        margin: 155px auto
+    }
+
+    #gameSet #music1, #gameSet #music2 {
+        height: 57px
+    }
+
+    #gameSet #music1 {
+        margin-top: 285px
+    }
+
+    #gameSet #music2 {
+        margin-top: 76px
+    }
+
+    #gameSet .exit {
+        height: 68px;
+        margin-top: 46px
+    }
+
+    #smallDogShop .smallDogBtn {
+        height: 60px
+    }
+}
+
+/* 平板电脑和小屏电脑之间的分辨率 */
+@media (min-width: 768px) and (max-width: 979px) {
+    #loginForm1 .loginBtn, .forget, #infoBox, #forgetPassBox, #forgetPassBox .chengePassForm .confirmChange, #forgetPassBox .chengePassForm .getCodeBtn, #zhanghu, #gameSet, #gameSet .exit, #smallDogShop {
+        background-size: 100% auto
+    }
+
+   
+
+    #loginForm1 {
+        width: 70%;
+        padding: 15% 0 8%;
+        height: auto;
+        margin: 50% auto 0;
+        overflow:hidden;
+    }
+
+    #loginForm1 input {
+        width: 58%;
+        padding: 5px
+    }
+
+    #loginForm1 .loginBtn {
+        width: 45%;
+        padding: 10px 0
+    }
+
+    .forget {
+        width: 21%;
+        height: auto;
+        padding: 28px 0
+    }
+
+    #infoBox {
+        padding: 80px 0;
+        left: 50%;
+        top: 20%;
+        width: 70%;
+        margin-left: -35%
+    }
+
+    #forgetPassBox {
+        width: 80%;
+        height: auto;
+        left: 50%;
+        margin-left: -40%;
+        background-position: top left
+    }
+
+    #forgetPassBox .close1 {
+        top: 20%
+    }
+
+    #forgetPassBox .chengePassForm {
+        margin: 32% auto 28%
+    }
+
+    #forgetPassBox .chengePassForm .checkCodeBox, #forgetPassBox .chengePassForm input {
+        width: 85%;
+        margin-bottom: 20px
+    }
+
+    #forgetPassBox .chengePassForm input {
+        height: auto;
+        padding: 13px 0
+    }
+
+    #forgetPassBox .chengePassForm .confirmChange {
+        width: 50%;
+        padding: 7px 0
+    }
+
+    #forgetPassBox .chengePassForm .getCodeBtn {
+        width: 30%;
+        padding: 20px 0
+    }
+
+    #footer {
+        height: 110px
+    }
+
+    #zhanghu {
+        padding: 28px 0
+    }
+
+    #zhanghu img {
+        height: auto
+    }
+
+    #zhanghu .vipUser {
+        top: 20%
+    }
+
+    #zhanghu .dogNum1, #zhanghu .dogNum2 {
+        top: 60%
+    }
+
+    #zhanghu .dogEmail, #zhanghu .shezhi {
+        position: absolute;
+        top: 15px;
+        margin: 0;
+        padding: 19px 0
+    }
+
+    #zhanghu .dogEmail {
+        right: 2%
+    }
+
+    #zhanghu .shezhi {
+        right: 15%
+    }
+
+    #tuBiao .intoBtn {
+        width: 60%;
+        left: 19.7%;
+        bottom: 4%;
+        padding: 17px 0
+    }
+
+    #gameSet {
+        top: 10%;
+        padding: 175px 0
+    }
+
+    #gameSet .close8 {
+        top: 20%
+    }
+
+    #gameSet #music1, #gameSet #music2 {
+        padding: 15px 0;
+        margin-top: 70px
+    }
+
+    #gameSet .exit {
+        padding: 25px 0;
+        margin-top: 60px
+    }
+
+    #inBox {
+        height: 600px;
+        top: 2%;
+        padding: 130px 0 70px
+    }
+
+    #inBox ul {
+        position: absolute;
+        left: 8%;
+        height: 565px;
+        margin: 30px auto 15px
+    }
+
+    #inBox ul li {
+        width: 90%;
+        height: 95px
+    }
+
+    #faceBox {
+        top: 5%;
+        height: 700px
+    }
+
+    #faceBox .faceUl {
+        height: 420px;
+        margin: 138px auto
+    }
+
+    #faceBox .ok {
+        width: 60%;
+        height: 65px;
+        margin-top: -100px
+    }
+
+    #faceBox .faceUl li {
+        height: auto
+    }
+
+    #gameRulePanel {
+        height: 730px;
+        top: 10%
+    }
+
+    #gameRulePanel ul {
+        height: 510px;
+        margin: 140px auto 0
+    }
+
+    #gameRulePanel ul li {
+        width: 85%
+    }
+
+    #smallDogShop {
+        width: 70%;
+        height: 752px;
+        top: 5%;
+        left: 15%
+    }
+
+    #smallDogShop .close6 {
+        top: 30%
+    }
+
+    #smallDogShop .smallDogBtn {
+        position: absolute;
+        margin: 0;
+        bottom: 28%;
+        left: 28%
+    }
+}
+
+/*在521 和750 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 521px) and (max-width: 750px) {
+    /*登录*/
+    #loginForm1 {
+        width: 100%;
+        min-height: 432px;
+        padding-top: 20%;
+        box-sizing: border-box;
+    }
+
+    #loginForm1 input {
+        height: 43px;
+        font-size: 21px;
+        text-indent: 8px;
+    }
+
+    #loginForm1 input.mobile {
+        margin-bottom: 16px;
+    }
+
+    #loginForm1 .loginBtn {
+        height: 66px;
+        margin: 29px auto;
+    }
+
+    .forget {
+        margin: -13px 12%;
+    }
+
+    /*忘记密码*/
+    #forgetPassBox {
+        height: 478px;
+    }
+
+    #forgetPassBox .close1 {
+        width: 44px;
+        height: 44px;
+    }
+
+    #forgetPassBox .chengePassForm {
+        padding-top: 13px;
+        box-sizing: border-box;
+    }
+
+    #forgetPassBox .chengePassForm input {
+        height: 35px;
+        margin: 0px auto 17px;
+        border-radius: 35px;
+        text-indent: 13px;
+    }
+
+    #forgetPassBox .chengePassForm .checkCodeBox {
+        margin: 0px auto 17px;
+    }
+
+    #forgetPassBox .chengePassForm .getCodeBtn {
+        height: 35px;
+    }
+
+    #forgetPassBox .chengePassForm .confirmChange {
+        margin: 13px auto;
+        height: 57px;
+    }
+
+    /*该手机好没有注册*/
+    #infoBox {
+        height: 465px;
+    }
+
+    #infoBox .infoText {
+        font-size: 26px;
+        margin-top: 247px;
+    }
+
+    /*首页*/
+    .page {
+        height: 862px;
+    }
+
+    #zhanghu {
+        height: 73px;
+    }
+
+    #zhanghu .shezhi {
+        height: 50px;
+    }
+
+    #zhanghu .dogEmail {
+        height: 50px;
+    }
+
+    #tuBiao .intoBtn {
+        height: 62px;
+    }
+
+    /*公告*/
+    #noticeBox {
+        height: 624px;
+    }
+
+    #noticeBox ul {
+        height: 460px;
+        padding: 16px 25px;
+        margin: 114px auto;
+    }
+
+    #noticeBox ul li {
+        margin-bottom: 9px;
+        border-radius: 7px 0 7px 0;
+        padding: 16px 0px 1px 0;
+    }
+
+    #noticeBox ul li .top {
+        height: 33px;
+        line-height: 33px;
+        padding: 0 16px;
+        margin-bottom: 12px;
+    }
+
+    #noticeBox ul li .top .text {
+        text-indent: 43px;
+        background-size: 43px 33px;
+        font-size: 15px;
+    }
+
+    #noticeBox ul li .contentBox {
+        margin: 16px 16px;
+        border-radius: 5px;
+        padding: 16px 0;
+        /*display: none;*/
+    }
+
+    /*头像*/
+    #faceBox {
+        height: 621px;
+    }
+
+    #faceBox .faceUl {
+        height: 380px;
+        margin: 121px auto;
+    }
+
+    #faceBox .faceUl li {
+        height: 91px;
+    }
+
+    #faceBox .ok {
+        margin: -100px auto;
+        height: 60px;
+    }
+
+    #zhanghu img {
+        height: 43px;
+    }
+
+    /*更改密码*/
+    #changePassBox .close2, #forgetPassBox .close1, #inBox .close3, #faceBox .close4, #smallDogShop .close6, #infoBox .close7, #gameSet .close8, #openDogfloor .close9, #harvest .close10, #cleaning .close11, #feed .close12, #noticeBox .close13, #friendList .friendListClose, #wareHouse .wareHouseClose, #okInfo .okInfoClose {
+        width: 44px;
+        height: 44px;
+    }
+
+    /*游戏设置*/
+    #gameSet {
+        height: 503px;
+    }
+
+    #gameSet #music1 {
+        height: 44px;
+        margin-top: 179px;
+    }
+
+    #gameSet #music2 {
+        height: 44px;
+        margin-top: 44px;
+    }
+
+    #gameSet .exit {
+        height: 61px;
+        margin: 17px auto;
+    }
+
+    /*收件箱*/
+    #inBox, #gameRulePanel {
+        height: 620px;
+        margin: 72px auto;
+    }
+
+    #inBox ul, #gameRulePanel ul {
+        height: 455px;
+        margin: 116px auto;
+    }
+
+    #inBox ul li {
+        height: 66px;
+    }
+
+    #inBox ul li .textBox {
+        font-size: 18px;
+    }
+
+    /*游戏规则*/
+    #gameRulePanel ul li {
+        height: 129px;
+        padding-top: 5px;
+    }
+
+    #gameRulePanel ul li span {
+        height: 90px;
+    }
+
+    /*小狗购物*/
+    #smallDogShop {
+        height: 500px;
+    }
+
+    #smallDogShop .smallDogBtn {
+        height: 62px;
+    }
+
+    /*交易中心
+    .shopCenterLink {
+        height: 127px;
+        top: 148px;
+        left: 17px;
+    }
+
+    .shopCenterLink a {
+        height: 178px;
+        margin-bottom: 5px;
+    }
+    */
+    /*交易中心1*/
+    #neWDogField {
+        /* bottom: -9px;*/
+        height: 891px;
+    }
+
+    #neWDogFieldForm {
+        height: 650px;
+        margin-top: 118px;
+    }
+
+    #neWDogFieldForm input {
+        text-indent: 27px;
+        height: 42px;
+        border-radius: 21px;
+        margin-bottom: 15px;
+    }
+
+    #neWDogFieldForm .sexBox {
+        margin: 0 auto 42px;
+        height: 42px;
+        line-height: 42px;
+        font-size: 21px;
+    }
+
+    input.nDFFormInput::-webkit-input-placeholder {
+        font-size: 22px;
+    }
+
+    input.nDFFormInput:-moz-placeholder {
+        font-size: 22px;
+    }
+
+    input.nDFFormInput::-moz-placeholder {
+        font-size: 22px;
+    }
+
+    input.nDFFormInput:-ms-input-placeholder {
+        font-size: 22px;
+    }
+
+    #neWDogFieldForm p {
+        font-size: 28px;
+    }
+
+    #neWDogFieldForm .subBtn {
+        margin-top: 29px;
+        height: 65px;
+    }
+
+    /*交易中心2*/
+    #giveDog {
+    /* bottom: -9px;*/
+     height: 891px;
+ }
+
+ #giveDogForm {
+     height: 588px;
+     margin-top: 117px;
+ }
+
+ #giveDogForm input {
+     text-indent: 34px;
+     height: 44px;
+     border-radius: 22px;
+     margin-bottom: 42px;
+ }
+
+ #giveDogForm p {
+     font-size: 21px;
+     margin-bottom: 17px;
+ }
+
+ #giveDogForm .switchBox {
+     height: 46px;
+ }
+
+ #giveDogForm .switchBox span {
+     height: 46px;
+     line-height: 46px;
+     font-size: 20px;
+ }
+
+ #giveDogForm .subBtn {
+     margin-top: 29px;
+     height: 64px;
+ }
+
+ /*交易中心3 4*/
+
+
+    #houseTop .back {
+        font-size: 20px;
+        left: 65px;
+        top: 78px;
+    }
+
+    #houseTop .face {
+        width: 51px;
+        height: 51px;
+        border-radius: 244px;
+        left: 454px;
+        top: 68px;
+    }
+
+
+
+    #shopRecord .tab .leftTab, #zhuanRecord .tab .leftTab {
+        height: 62px;
+        border-radius: 12px;
+    }
+
+
+    #zhuanRecord .tab .leftTab {
+        left: 103px;
+        top: 70px;
+    }
+
+    #shopRecord .tab .rightTab, #zhuanRecord .tab .rightTab {
+        height: 62px;
+        left: 306px;
+        border-radius: 12px;
+    }
+
+    #shopRecord .tab .rightTab {
+        top: 70px;
+    }
+
+    #zhuanRecord .tab .rightTab {
+        top: 64px;
+    }
+
+
+
+    #shopRecord ul li span, #zhuanRecord ul li span {
+        height: 46px;
+        line-height: 46px;
+    }
+
+    #shopRecord .fenye, #zhuanRecord .fenye {
+        height: 35px;
+    }
+
+    #shopRecord .fenye .fenYeLeft, #zhuanRecord .fenye .fenYeLeft {
+        width: 36px;
+        height: 36px;
+    }
+
+    #shopRecord .fenye .fenshu, #zhuanRecord .fenye .fenshu {
+        font-size: 22px;
+        width: 143px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    #shopRecord .fenye .fenYeRight, #zhuanRecord .fenye .fenYeRight {
+        width: 35px;
+        height: 35px;
+    }
+
+    /*生长记录*/
+    #TopBox {
+        margin-top: 0px;
+    }
+
+    #TopBox .back {
+        font-size: 22px;
+        height: 49px;
+        margin: 57px 0 0 40px;
+    }
+
+    #TopBox .face {
+        width: 47px;
+        height: 47px;
+        border-radius: 23px;
+        margin-right: 34px;
+        margin-top: 39px;
+    }
+
+    .grow ul, .clean ul, .feed ul, .breeding ul {
+        height: 345px;
+        margin: 98px 0 0 21%;
+    }
+
+    .grow ul li, .clean ul li, .feed ul li, .breeding ul li {
+        height: 43px;
+    }
+
+    .grow ul li span, .clean ul li span, .feed ul li span, .breeding ul li span {
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .dailyRecord .fenye {
+        height: 44px;
+        margin-top: 55px;
+        margin-left: 19%;
+    }
+
+    .dailyRecord ol {
+        height: 86px;
+        margin: 22px 0 0 21%;
+        font-size: 17px;
+    }
+
+    .dailyRecord ol li {
+        margin-top: 26px;
+        height: 44px;
+    }
+
+    /*养狗日志*/
+    .link {
+        height: 654px;
+        top: 125px;
+        left: 16px;
+    }
+
+    .link a {
+        height: 157px;
+        margin-bottom: 5px;
+    }
+
+    /*狗场*/
+    #notice {
+        height: 35px;
+        line-height: 31px;
+    }
+
+    #notice .laba {
+        text-indent: 23px;
+        background: url(../image/index/laba.png) no-repeat 0 7px;
+        background-size: 17px 17px;
+        font-size: 17px;
+    }
+
+    #contain {
+        height: 867px;
+        padding: 14px 0;
+    }
+
+
+
+    #contain .account span {
+        /* font-size: 20px;*/
+     }
+
+     #contain .account .face {
+        /* width: 44px;
+         height: 44px;
+         top: 20px;
+         left: 3.8%;
+         */
+    }
+
+    #contain .account .name {
+    /*
+      height: 23px;
+
+      border-radius: 12px;
+      */
+        top: 0px;
+  }
+
+  #contain .account .numA {
+      top:20px;
+  }
+
+  #contain .account .numB {
+      top:20px;
+  }
+
+  #contain .account .myFrieng {
+      top: 14px;
+  }
+
+  #contain .account .myWareHouse {
+      top: 14px;
+  }
+
+  #contain .backBox {
+      height: 35px;
+      margin: 8px auto;
+  }
+
+  #contain .backBox .back {
+      height: 35px;
+  }
+
+  #contain .backBox .refresh {
+      height: 35px;
+      margin-right: 2.1%;
+  }
+
+  #contain .dogFarm {
+      width: 88.8%;
+      height: 729px;
+      margin: 0px auto;
+      padding: 5px;
+  }
+
+  #contain .dogFarm ul {
+      height: 729px;
+  }
+
+  #contain .dogFarm ul.cleanDogUl {
+      height: 702px;
+  }
+
+  #contain .dogFarm ul li {
+      height: 169px;
+  }
+
+  #footNav {
+      height: 86px;
+      bottom: 0px;
+  }
+
+  #footNav span {
+      font-size: 23px;
+  }
+
+  #footNav span:nth-of-type(1) {
+      margin: 46px 0 0 4%;
+  }
+
+  #footNav span:nth-of-type(2) {
+      margin: 46px 0 0 14%;
+  }
+
+  #footNav span:nth-of-type(3) {
+      margin: 46px 0 0 13%;
+  }
+
+  #footNav span:nth-of-type(4) {
+      margin: 46px 0 0 12%;
+  }
+
+  /*开狗场*/
+    #openDogfloor {
+        height: 503px;
+        font-size: 26px;
+    }
+
+    #openDogfloor .text {
+        margin: 263px 0 0 0;
+    }
+
+    /*清洗*/
+    #cleaning {
+        height: 504px;
+    }
+
+    #cleaning .queding {
+        height: 72px;
+        margin: 354px auto;
+    }
+
+    /*输入喂养数*/
+    #feed {
+        height: 503px;
+        font-size: 27px;
+    }
+
+    #feed .text {
+        margin: 216px 0 0 0;
+    }
+
+    #feed input {
+        height: 57px;
+        margin: 17px auto;
+        border-radius: 29px;
+        text-indent: 29px;
+    }
+
+    #feed .pan {
+        width: 57px;
+        height: 57px;
+    }
+
+    #feed .queding {
+        height: 61px;
+        margin: 34px auto;
+    }
+
+    /*好友列表*/
+    #friendList {
+        height: 625px;
+    }
+
+    #friendList ul {
+        height: 382px;
+        margin: 118px auto;
+        padding: 4px 0 0 0;
+    }
+
+
+
+    #friendList ul li .top {
+        height: 81px;
+    }
+
+    #friendList ul li .top img {
+        height: 57px;
+        width: 57px;
+        margin: 12px 0 0 18px;
+    }
+
+    #friendList ul li .top .vipBox span.VipName {
+        font-size: 21px;
+        margin: 7px 0 0 13px;
+    }
+
+    #friendList ul li .top .vipBox span.num {
+        margin: 7px 0 0 40px;
+    }
+
+    #friendList ul li .top .btn {
+        width: 95px;
+        height: 39px;
+        line-height: 39px;
+        margin: 22px 13px 0 0;
+    }
+
+    #friendList ul li .bottom {
+        font-size: 17px;
+        margin: 8px 0 0 96px;
+    }
+
+    #friendList ul li .bottom .name {
+        margin-right: 52px;
+    }
+
+    #friendList .bottomBtn {
+        margin: -95px auto;
+    }
+
+    #friendList .bottomBtn .onekeyclean {
+        height: 61px;
+    }
+
+    #friendList .bottomBtn .yaoqing {
+        height: 61px;
+    }
+
+    /*我的仓库*/
+    #wareHouse {
+        height: 621px;
+    }
+
+    #wareHouse ul {
+        height: 446px;
+        margin: 117px auto;
+    }
+
+    #wareHouse ul li {
+        height: 79px;
+        margin: 14px auto 5px;
+    }
+
+    #wareHouse ul li img {
+        height: 57px;
+        width: 57px;
+        margin: 12px 0 0 18px;
+    }
+
+    #wareHouse ul li .vipBox .type {
+        font-size: 18px;
+        margin: 14px 0 0 14px;
+    }
+
+    #wareHouse ul li .vipBox .num {
+        margin: 3px 0 0 16px;
+        text-indent: 14px;
+        border-radius: 9px;
+    }
+
+    #wareHouse ul li .vipBox p {
+        width: 124px;
+        line-height: 17px;
+        font-size: 17px;
+    }
+
+    #wareHouse ul li .btn {
+        width: 94px;
+        height: 39px;
+        line-height: 39px;
+        margin: 21px 5px 0 0;
+    }
+
+    #oneKeyCleans {
+        height: 65px;
+    }
+
+    /*确定提示框*/
+    #okInfo {
+        height: 529px;
+        font-size: 22px;
+    }
+
+    #okInfo .infoxiaoxi {
+        margin: 243px auto;
+    }
+
+    #okInfo .okInfoB {
+        height: 46px;
+        margin: -160px auto;
+    }
+
+}
+
+/*在414 和520 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 414px) and (max-width: 520px) {
+    /*登录*/
+    #loginForm1 {
+        width: 100%;
+        height: 332px;
+        padding-top: 20%;
+        box-sizing: border-box;
+    }
+
+    #loginForm1 input {
+        height: 33px;
+        font-size: 16px;
+        text-indent: 6px;
+    }
+
+    #loginForm1 input.mobile {
+        margin-bottom: 12px;
+    }
+
+    #loginForm1 .loginBtn {
+        height: 51px;
+        margin: 22px auto;
+    }
+
+    .forget {
+        margin: -10px 12%;
+    }
+
+    /*忘记密码*/
+    #forgetPassBox {
+        height: 386px;
+    }
+
+    #forgetPassBox .close1 {
+        width: 34px;
+        height: 34px;
+    }
+
+    #forgetPassBox .chengePassForm {
+        padding-top: 10px;
+        box-sizing: border-box;
+    }
+
+    #forgetPassBox .chengePassForm input {
+        height: 27px;
+        margin: 0px auto 13px;
+        border-radius: 27px;
+        text-indent: 10px;
+    }
+
+    #forgetPassBox .chengePassForm .checkCodeBox {
+        margin: 0px auto 13px;
+    }
+
+    #forgetPassBox .chengePassForm .getCodeBtn {
+        height: 27px;
+    }
+
+    #forgetPassBox .chengePassForm .confirmChange {
+        margin: 10px auto;
+        height: 44px;
+    }
+
+    /*该手机好没有注册*/
+    #infoBox {
+        height: 385px;
+    }
+
+    #infoBox .infoText {
+        font-size: 20px;
+        margin-top: 190px;
+    }
+
+    /*首页*/
+    .page {
+        height: 663px;
+    }
+
+    #zhanghu {
+        height: 56px;
+    }
+
+    #zhanghu .shezhi {
+        height: 38.5px;
+    }
+
+    #zhanghu .dogEmail {
+        height: 38.5px;
+    }
+
+    #tuBiao .intoBtn {
+        height: 48px;
+    }
+
+    /*公告*/
+    #noticeBox {
+        height: 480px;
+    }
+
+    #noticeBox ul {
+        height: 354px;
+        padding: 12px 19px;
+        margin: 88px auto;
+    }
+
+    #noticeBox ul li {
+        margin-bottom: 6.5px;
+        border-radius: 5px 0 5px 0;
+        padding: 12px 0px 1px 0;
+    }
+
+    #noticeBox ul li .top {
+        height: 25px;
+        line-height: 25px;
+        padding: 0 12px;
+        margin-bottom: 9px;
+    }
+
+    #noticeBox ul li .top .text {
+        text-indent: 33px;
+        background-size: 33px 25px;
+        font-size: 15px;
+    }
+
+    #noticeBox ul li .contentBox {
+        margin: 12px 12px;
+        border-radius: 4px;
+        padding: 12px 0;
+        /*display: none;*/
+    }
+
+    /*头像*/
+    #faceBox {
+        height: 478px;
+    }
+
+    #faceBox .faceUl {
+        height: 292px;
+        margin: 93px auto;
+    }
+
+    #faceBox .faceUl li {
+        height: 70px;
+    }
+
+    #faceBox .ok {
+        margin: -77px auto;
+        height: 46px;
+    }
+
+    #zhanghu img {
+        height: 33px;
+    }
+
+    /*更改密码*/
+    #changePassBox .close2, #forgetPassBox .close1, #inBox .close3, #faceBox .close4, #smallDogShop .close6, #infoBox .close7, #gameSet .close8, #openDogfloor .close9, #harvest .close10, #cleaning .close11, #feed .close12, #noticeBox .close13, #friendList .friendListClose, #wareHouse .wareHouseClose, #okInfo .okInfoClose {
+        width: 34px;
+        height: 34px;
+    }
+
+    /*游戏设置*/
+    #gameSet {
+        height: 387px;
+    }
+
+    #gameSet #music1 {
+        height: 34px;
+        margin-top: 138px;
+    }
+
+    #gameSet #music2 {
+        height: 34px;
+        margin-top: 34px;
+    }
+
+    #gameSet .exit {
+        height: 47px;
+        margin: 13px auto;
+    }
+
+    /*收件箱*/
+    #inBox, #gameRulePanel {
+        height: 477px;
+        margin: 55px auto;
+    }
+
+    #inBox ul, #gameRulePanel ul {
+        height: 350px;
+        margin: 89px auto;
+    }
+
+    #inBox ul li {
+        height: 51px;
+    }
+
+    #inBox ul li .textBox {
+        font-size: 14px;
+    }
+
+    /*游戏规则*/
+    #gameRulePanel ul li {
+        height: 99px;
+        padding-top: 16.5px;
+    }
+
+    #gameRulePanel ul li span {
+        height: 69.3px;
+    }
+
+    /*小狗购物*/
+    #smallDogShop {
+        height: 385px;
+    }
+
+    #smallDogShop .smallDogBtn {
+        height: 48px;
+    }
+
+
+
+    /*交易中心1*/
+    #neWDogField {
+        bottom: -7px;
+        height: 685px;
+    }
+
+    #neWDogFieldForm {
+        height: 500px;
+        margin-top: 91px;
+    }
+
+    #neWDogFieldForm input {
+        text-indent: 21px;
+        height: 32px;
+        border-radius: 16px;
+        margin-bottom: 32px;
+    }
+
+    #neWDogFieldForm .sexBox {
+        margin: 0 auto 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 16px;
+    }
+
+    input.nDFFormInput::-webkit-input-placeholder {
+        font-size: 17px;
+    }
+
+    input.nDFFormInput:-moz-placeholder {
+        font-size: 17px;
+    }
+
+    input.nDFFormInput::-moz-placeholder {
+        font-size: 17px;
+    }
+
+    input.nDFFormInput:-ms-input-placeholder {
+        font-size: 17px;
+    }
+
+    #neWDogFieldForm p {
+        font-size: 14px;
+    }
+
+    #neWDogFieldForm .subBtn {
+        margin-top: 22px;
+        height: 50px;
+    }
+
+    /*交易中心2*/
+    #giveDog {
+        bottom: -7px;
+        height: 685px;
+    }
+
+    #giveDogForm {
+        height: 452px;
+        margin-top: 90px;
+    }
+
+    #giveDogForm input {
+        text-indent: 26px;
+        height: 34px;
+        border-radius: 17px;
+        margin-bottom: 32px;
+    }
+
+    #giveDogForm p {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+
+    #giveDogForm .switchBox {
+        height: 35px;
+    }
+
+    #giveDogForm .switchBox span {
+        height: 35px;
+        line-height: 35px;
+        font-size: 15px;
+    }
+
+    #giveDogForm .subBtn {
+        margin-top: 22px;
+        height: 49px;
+    }
+
+    /*交易中心3 4*/
+    #houseTop {
+        height: 231px;
+    }
+
+    #houseTop .back {
+        font-size: 15px;
+        left: 50px;
+        top: 60px;
+    }
+
+    #houseTop .face {
+        width: 39px;
+        height: 39px;
+        border-radius: 188px;
+        left: 349px;
+        top: 52px;
+    }
+
+
+
+    #shopRecord .tab .leftTab, #zhuanRecord .tab .leftTab {
+        height: 48px;
+        border-radius: 9px;
+    }
+
+
+
+    #zhuanRecord .tab .leftTab {
+        left: 79px;
+        top: 54px;
+    }
+
+    #shopRecord .tab .rightTab, #zhuanRecord .tab .rightTab {
+        height: 48px;
+        left: 235px;
+        border-radius: 9px;
+    }
+
+    #shopRecord .tab .rightTab {
+        top: 54px;
+    }
+
+    #zhuanRecord .tab .rightTab {
+        top: 49px;
+    }
+
+
+
+    #shopRecord ul li span, #zhuanRecord ul li span {
+        height: 35px;
+        line-height: 35px;
+    }
+
+    #shopRecord .fenye, #zhuanRecord .fenye {
+        height: 27px;
+    }
+
+    #shopRecord .fenye .fenYeLeft, #zhuanRecord .fenye .fenYeLeft {
+        width: 28px;
+        height: 28px;
+    }
+
+    #shopRecord .fenye .fenshu, #zhuanRecord .fenye .fenshu {
+        font-size: 17px;
+        width: 110px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    #shopRecord .fenye .fenYeRight, #zhuanRecord .fenye .fenYeRight {
+        width: 27px;
+        height: 27px;
+    }
+
+    /*生长记录*/
+    #TopBox {
+        margin-top: 0px;
+    }
+
+    #TopBox .back {
+        font-size: 15px;
+        height: 38px;
+        margin: 47px 0 0 35px;
+    }
+
+    #TopBox .face {
+        width: 36px;
+        height: 36px;
+        border-radius: 18px;
+        margin-right: 26px;
+        margin-top: 30px;
+    }
+
+    .grow ul, .clean ul, .feed ul, .breeding ul {
+        height: 265px;
+        margin: 68px 0 0 21%;
+    }
+
+    .grow ul li, .clean ul li, .feed ul li, .breeding ul li {
+        height: 33px;
+    }
+
+    .grow ul li span, .clean ul li span, .feed ul li span, .breeding ul li span {
+        height: 34px;
+        line-height: 34px;
+    }
+
+    .dailyRecord .fenye {
+        height: 34px;
+        margin-top: 42px;
+        margin-left: 19%;
+    }
+
+    .dailyRecord ol {
+        height: 66px;
+        margin: 17px 0 0 21%;
+        font-size: 13px;
+    }
+
+    .dailyRecord ol li {
+        margin-top: 20px;
+        height: 34px;
+    }
+
+    /*养狗日志*/
+    .link {
+        height: 503px;
+        top: 96px;
+        left: 12px;
+    }
+
+    .link a {
+        height: 121px;
+        margin-bottom: 4px;
+    }
+
+    /*狗场*/
+    #notice {
+        height: 27px;
+        line-height: 24px;
+    }
+
+    #notice .laba {
+        text-indent: 18px;
+        background: url(../image/index/laba.png) no-repeat 0 5px;
+        background-size: 13px 13px;
+        font-size: 13px;
+    }
+
+    #contain {
+        height: 667px;
+        padding: 11px 0;
+    }
+
+
+
+
+    #contain .account .name {
+        height: 18px;
+        top:0px;
+        border-radius: 9px;
+    }
+
+    #contain .account .numA {
+        height: 18px;
+        top: 20px;
+        border-radius: 9px;
+    }
+
+    #contain .account .numB {
+        height: 18px;
+        top:20px;
+        border-radius: 9px;
+    }
+
+    #contain .account .myFrieng {
+
+        top: 11px;
+    }
+
+    #contain .account .myWareHouse {
+
+        top: 11px;
+    }
+
+    #contain .backBox {
+        height: 27px;
+        margin: 6px auto;
+    }
+
+    #contain .backBox .back {
+        height: 27px;
+    }
+
+    #contain .backBox .refresh {
+        height: 27px;
+        margin-right: 2.1%;
+    }
+
+    #contain .dogFarm {
+        width: 88.8%;
+        height: 561px;
+        margin: 0px auto;
+        padding: 4px;
+    }
+
+    #contain .dogFarm ul {
+        height: 561px;
+    }
+
+    #contain .dogFarm ul.cleanDogUl {
+        height: 540px;
+    }
+
+    #contain .dogFarm ul li {
+        height: 130px;
+    }
+
+    #footNav {
+        height: 66px;
+        bottom: 0px;
+    }
+
+    #footNav span {
+        font-size: 18px;
+    }
+
+    #footNav span:nth-of-type(1) {
+        margin: 35px 0 0 4%;
+    }
+
+    #footNav span:nth-of-type(2) {
+        margin: 35px 0 0 14%;
+    }
+
+    #footNav span:nth-of-type(3) {
+        margin: 35px 0 0 13%;
+    }
+
+    #footNav span:nth-of-type(4) {
+        margin: 35px 0 0 12%;
+    }
+
+    /*开狗场*/
+    #openDogfloor {
+        height: 387px;
+        font-size: 20px;
+    }
+
+    #openDogfloor .text {
+        margin: 202px 0 0 0;
+    }
+
+    /*清洗*/
+    #cleaning {
+        height: 388px;
+    }
+
+    #cleaning .queding {
+        height: 55px;
+        margin: 272px auto;
+    }
+
+    /*输入喂养数*/
+    #feed {
+        height: 387px;
+        font-size: 21px;
+    }
+
+    #feed .text {
+        margin: 166px 0 0 0;
+    }
+
+    #feed input {
+        height: 44px;
+        margin: 13px auto;
+        border-radius: 22px;
+        text-indent: 22px;
+    }
+
+    #feed .pan {
+        width: 44px;
+        height: 44px;
+    }
+
+    #feed .queding {
+        height: 47px;
+        margin: 26px auto;
+    }
+
+    /*好友列表*/
+    #friendList {
+        height: 481px;
+    }
+
+    #friendList ul {
+        height: 294px;
+        margin: 91px auto;
+        padding: 3px 0 0 0;
+    }
+
+
+    #friendList ul li .top {
+        height: 62px;
+    }
+
+    #friendList ul li .top img {
+        height: 44px;
+        width: 44px;
+        margin: 9px 0 0 14px;
+    }
+
+    #friendList ul li .top .vipBox span.VipName {
+        font-size: 16px;
+        margin: 5px 0 0 10px;
+    }
+
+    #friendList ul li .top .vipBox span.num {
+        margin: 5px 0 0 31px;
+    }
+
+    #friendList ul li .top .btn {
+        width: 73px;
+        height: 30px;
+        line-height: 30px;
+        margin: 17px 10px 0 0;
+    }
+
+    #friendList ul li .bottom {
+        font-size: 13px;
+        margin: 6px 0 0 74px;
+    }
+
+    #friendList ul li .bottom .name {
+        margin-right: 22px;
+    }
+
+    #friendList .bottomBtn {
+        margin: -73px auto;
+    }
+
+    #friendList .bottomBtn .onekeyclean {
+        height: 47px;
+    }
+
+    #friendList .bottomBtn .yaoqing {
+        height: 47px;
+    }
+
+    /*我的仓库*/
+    #wareHouse {
+        height: 478px;
+    }
+
+    #wareHouse ul {
+        height: 325px;
+        margin: 107px auto;
+    }
+
+    #wareHouse ul li {
+        height: 61px;
+        margin: 10px auto 4px;
+    }
+
+    #wareHouse ul li img {
+        height: 44px;
+        width: 44px;
+        margin: 9px 0 0 14px;
+    }
+
+    #wareHouse ul li .vipBox .type {
+        font-size: 14px;
+        margin: 11px 0 0 11px;
+    }
+
+    #wareHouse ul li .vipBox .num {
+        margin: 2px 0 0 12px;
+        text-indent: 11px;
+        border-radius: 7px;
+        width: 77px;
+    }
+
+    #wareHouse ul li .vipBox p {
+        width: 95px;
+        line-height: 13px;
+        font-size: 13px;
+    }
+
+    #wareHouse ul li .btn {
+        width: 72px;
+        height: 30px;
+        line-height: 30px;
+        margin: 16px 5px 0 0;
+    }
+
+    #oneKeyCleans {
+        height: 50px;
+    }
+
+    /*确定提示框*/
+    #okInfo {
+        height: 481px;
+        font-size: 20px;
+    }
+
+    #okInfo .infoxiaoxi {
+        margin: 221px auto;
+    }
+
+    #okInfo .okInfoB {
+        height: 42px;
+        margin: -146px auto;
+    }
+
+    #inBox, #gameRulePanel {
+        top: 5%;
+        margin-top: 0
+    }
+}
+
+/*在315 和359 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width: 300px) and (max-width: 340px) {
+    /*交易中心*/
+    .shopCenterLink {
+        height: 52%;
+        top: 27%;
+        left: 8%;
+    }
+
+    .shopCenterLink a {
+        height: 33%;
+    }
+    /*登录*/
+    #loginForm1 {
+        min-height: 225px;
+        margin-top: 45%;
+        padding-top: 14%;
+    }
+
+    #loginForm1 input {
+        width: 63%;
+        height: 26px;
+        border-radius: 4px;
+    }
+
+    #loginForm1 .loginBtn {
+        height: 40px;
+        margin: 17px auto;
+    }
+
+    /*狗出场*/
+    .luogou {
+        position: absolute;
+        display: block;
+        height:180px;
+        top: 12px;
+        left: 0px;
+        z-index: 2;
+        animation: drop 0.8s ease-in-out forwards;
+    }
+
+    @keyframes drop {
+        from {
+            top: -220px;
+        }
+        to {
+            top: 0px;
+        }
+    }
+	@keyframes drop {
+        from {
+            top: -220px;
+        }
+        to {
+            top: 0px;
+        }
+    }
+    /*忘记密码*/
+    #forgetPassBox .chengePassForm {
+        margin: 32% auto;
+    }
+
+    #forgetPassBox .chengePassForm .confirmChange {
+        height: 30px;
+    }
+
+    /*忘记密码*/
+    #forgetPassBox {
+        height: 297px;
+    }
+
+    #forgetPassBox .close1 {
+        width: 26px;
+        height: 26px;
+    }
+
+    #forgetPassBox .chengePassForm {
+        margin: 26% auto;
+    }
+
+    #forgetPassBox .chengePassForm input {
+        height: 21px;
+        margin: 0px auto 10px;
+        border-radius: 21px;
+        text-indent: 8px;
+    }
+
+    #forgetPassBox .chengePassForm .checkCodeBox {
+        margin: 0px auto 10px;
+    }
+
+    #forgetPassBox .chengePassForm .getCodeBtn {
+        height: 21px;
+    }
+
+    #forgetPassBox .chengePassForm .confirmChange {
+        margin: 8px auto;
+        height: 34px;
+    }
+
+    /*游戏设置*/
+    #gameSet {
+        height: 298px;
+    }
+
+    #gameSet #music1 {
+        height: 26px;
+        margin-top: 106px;
+    }
+
+    #gameSet #music2 {
+        height: 26px;
+        margin-top: 26px;
+    }
+
+    #gameSet .exit {
+        height: 36px;
+        margin: 10px auto;
+    }
+
+    /*该手机好没有注册*/
+    #infoBox {
+        height: 318px;
+    }
+
+    #infoBox .infoText {
+        font-size: 18px;
+        margin-top: 161px;
+    }
+
+    /*首页*/
+    .page {
+        height: 513px;
+    }
+
+    #gonggao .warp {
+        width: 170px;
+    }
+
+    @keyframes moveText {
+        from {
+            left: 20px;
+        }
+        to {
+            left: -160px;
+        }
+    }
+	@keyframes moveText {
+        from {
+            left: 20px;
+        }
+        to {
+            left: -160px;
+        }
+    }
+    #gonggao .warp .movetext {
+        position: relative;
+        left: 10px;
+        top: 0px;
+        width: 160px;
+        margin: 0 auto;
+        z-index: 23;
+        -webkit-animation: 3s moveText infinite linear;
+        animation: 3s moveText infinite linear;
+    }
+
+    #zhanghu {
+        height: 45px;
+    }
+
+    #zhanghu img {
+        top: 23%;
+    }
+
+    #zhanghu .shezhi {
+        height: 30px;
+    }
+
+    #zhanghu .dogEmail {
+        height: 30px;
+    }
+
+    #tuBiao .intoBtn {
+        height: 37px;
+    }
+
+    /*公告*/
+    #noticeBox {
+        height: 370px;
+    }
+
+    #noticeBox ul {
+        height: 266px;
+        padding: 9px 13px;
+        margin: 68px auto;
+    }
+
+    #noticeBox ul li {
+        margin-bottom: 5px;
+        border-radius: 4px 0 4px 0;
+        padding: 8px 0px 1px 0;
+    }
+
+    #noticeBox ul li .top {
+        height: 19px;
+        line-height: 19px;
+        padding: 0 9px;
+        margin-bottom: 7px;
+    }
+
+    #noticeBox ul li .top .text {
+        text-indent: 25px;
+        background-size: 25px 19px;
+        font-size: 13px;
+    }
+
+    #noticeBox ul li .contentBox {
+        margin: 9px 9px;
+        border-radius: 3px;
+        padding: 9px 0;
+        /*display: none;*/
+    }
+
+    /*头像*/
+    #faceBox {
+        height: 370px;
+    }
+
+    #faceBox .faceUl {
+        height: 226px;
+        margin: 72px auto;
+    }
+
+    #faceBox .faceUl li {
+        height: 54px;
+    }
+
+    #faceBox .ok {
+        margin: -60px auto;
+        height: 36px;
+    }
+
+    #zhanghu img {
+        height: 25px;
+        top: 24%;
+    }
+
+    /*更改密码*/
+    #changePassBox .close2, #forgetPassBox .close1, #inBox .close3, #faceBox .close4, #smallDogShop .close6, #infoBox .close7, #gameSet .close8, #openDogfloor .close9, #harvest .close10, #cleaning .close11, #feed .close12, #noticeBox .close13, #wareHouse .wareHouseClose, #okInfo .okInfoClose {
+        width: 26px;
+        height: 26px;
+    }
+
+    #changePassForm .okBtn {
+        height: 36px;
+    }
+
+    /*收件箱*/
+    #inBox, #gameRulePanel {
+        height: 369px;
+        margin: 43px auto;
+        left: 9.3%;
+    }
+
+    #inBox ul, #gameRulePanel ul {
+        height: 266px;
+        margin: 69px auto;
+    }
+
+    #inBox ul li {
+        height: 39px;
+    }
+
+    /*游戏规则*/
+    #gameRulePanel ul li {
+        height: 76.5px;
+        padding-top: 13px;
+    }
+
+    #gameRulePanel ul li {
+        padding-top: 12px;
+    }
+
+    #gameRulePanel ul li span {
+        height: 50px;
+    }
+
+    /*游戏规则*/
+    #smallDogShop {
+        height: 300px;
+    }
+
+    #smallDogShop .smallDogBtn {
+        height: 36px;
+    }
+
+
+
+    /*交易中心1*/
+    #neWDogField {
+        bottom: -7px;
+        height: 527px;
+    }
+
+    #neWDogFieldForm {
+        height: 384px;
+        margin-top: 70px;
+    }
+
+    #neWDogFieldForm input {
+        text-indent: 21px;
+        height: 25px;
+        border-radius: 13px;
+        margin-bottom: 25px;
+    }
+
+    #neWDogFieldForm .sexBox {
+        margin: 0 auto 25px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 13px;
+    }
+
+    #neWDogFieldForm .sexBox label {
+        height: 20px;
+    }
+
+    input.nDFFormInput::-webkit-input-placeholder {
+        font-size: 13px;
+    }
+
+    input.nDFFormInput:-moz-placeholder {
+        font-size: 13px;
+    }
+
+    input.nDFFormInput::-moz-placeholder {
+        font-size: 13px;
+    }
+
+    input.nDFFormInput:-ms-input-placeholder {
+        font-size: 13px;
+    }
+
+    #neWDogFieldForm p {
+        font-size: 12px;
+    }
+
+    #neWDogFieldForm .subBtn {
+        margin-top: 17px;
+        height: 38px;
+    }
+
+    /*交易中心2*/
+    #giveDog {
+        bottom: -7px;
+        height: 527px;
+    }
+
+    #giveDogForm {
+        height: 348px;
+        margin-top: 70px;
+    }
+
+    #giveDogForm input {
+        text-indent: 21px;
+        height: 26px;
+        border-radius: 13px;
+        margin-bottom: 25px;
+    }
+
+    #giveDogForm p {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+
+    #giveDogForm .switchBox {
+        height: 27px;
+    }
+
+    #giveDogForm .switchBox span {
+        height: 27px;
+        line-height: 27px;
+        font-size: 12px;
+    }
+
+    #giveDogForm .subBtn {
+        margin-top: 17px;
+        height: 38px;
+    }
+
+    /*交易中心 3 4*/
+    #houseTop {
+        height: 178px;
+    }
+
+    #houseTop .back {
+        font-size: 13px;
+        left: 36px;
+        top: 46px;
+    }
+
+    #houseTop .face {
+        width: 30px;
+        height: 30px;
+        border-radius: 145px;
+        left: 270px;
+        top: 40px;
+    }
+
+
+    #shopRecord .tab .leftTab, #zhuanRecord .tab .leftTab {
+        height: 38px;
+        border-radius: 7px;
+    }
+
+
+    #shopRecord .tab .rightTab, #zhuanRecord .tab .rightTab {
+        height: 38px;
+        left: 181px;
+        top: 32px;
+        border-radius: 7px;
+    }
+
+    #shopRecord .tab .rightTab {
+        left: 181px;
+        top: 42px;
+    }
+
+    #zhuanRecord .tab .rightTab {
+        left: 181px;
+        top: 37px;
+    }
+
+
+
+    #shopRecord ul li span, #zhuanRecord ul li span {
+        height: 27px;
+        line-height: 27px;
+    }
+
+    #shopRecord .fenye, #zhuanRecord .fenye {
+        height: 22px;
+    }
+
+    #shopRecord .fenye .fenYeLeft, #zhuanRecord .fenye .fenYeLeft {
+        width: 22px;
+        height: 22px;
+    }
+
+    #shopRecord .fenye .fenshu, #zhuanRecord .fenye .fenshu {
+        font-size: 13px;
+        width: 85px;
+        height: 22px;
+        line-height: 22px;
+    }
+
+    #shopRecord .fenye .fenYeRight, #zhuanRecord .fenye .fenYeRight {
+        width: 22px;
+        height: 22px;
+    }
+
+    /*生长记录*/
+    #TopBox {
+        margin-top: 0px;
+    }
+
+    #TopBox .back {
+        font-size: 12px;
+        height: 29px;
+        margin: 35px 0 0 25px;
+    }
+
+    #TopBox .face {
+        width: 28px;
+        height: 28px;
+        border-radius: 14px;
+        margin-right: 20px;
+        margin-top: 24px;
+    }
+
+    .grow ul, .clean ul, .feed ul, .breeding ul {
+        height: 204px;
+        margin: 56px 0 0 21%;
+    }
+
+    .grow ul li, .clean ul li, .feed ul li, .breeding ul li {
+        height: 26px;
+    }
+
+    .grow ul li span, .clean ul li span, .feed ul li span, .breeding ul li span {
+        height: 26px;
+        line-height: 26px;
+    }
+
+    .dailyRecord .fenye {
+        height: 26px;
+        margin-top: 30px;
+        margin-left: 19%;
+    }
+
+    .dailyRecord ol {
+        height: 51px;
+        margin: 13px 0 0 21%;
+        font-size: 13px;
+    }
+
+    .dailyRecord ol li {
+        margin-top: 15px;
+        height: 26px;
+    }
+
+    /*养狗日志*/
+    .link {
+        height: 387px;
+        top: 75px;
+        left: 10px;
+    }
+
+    .link a {
+        height: 93px;
+        margin-bottom: 3px;
+    }
+
+    /*狗场*/
+    #notice {
+        height: 22px;
+        line-height: 22px;
+    }
+
+    #notice .laba {
+        text-indent: 14px;
+        background: url(../image/index/laba.png) no-repeat 0 4px;
+        background-size: 14px 14px;
+        font-size: 10px;
+    }
+
+    #contain {
+        height: 513px;
+        padding: 1px 0;
+    }
+
+    #contain .account {
+        height: 42px;
+    }
+
+    #contain .account span {
+        font-size: 12px;
+    }
+
+    #contain .account .face {
+        width: 25px;
+        height: 25px;
+        top: 12px;
+    }
+
+    #contain .account .name {
+        height: 14px;
+        top: 0px;
+        border-radius: 7px;
+    }
+
+    #contain .account .numA {
+        height: 14px;
+        top: 20px;
+        border-radius: 7px;
+    }
+
+    #contain .account .numB {
+        height: 14px;
+        top: 20px;
+        border-radius: 7px;
+    }
+
+    #contain .account .myFrieng {
+        width: 32px;
+        height: 32px;
+        top: 9px;
+    }
+
+    #contain .account .myWareHouse {
+        width: 32px;
+        height: 32px;
+        top: 9px;
+    }
+
+    #contain .backBox {
+        height: 22px;
+    }
+
+    #contain .backBox .back {
+        height: 22px;
+    }
+
+    #contain .backBox .refresh {
+        height: 22px;
+    }
+
+    #contain .dogFarm {
+        height: 433px;
+        padding: 4px;
+    }
+
+    #contain .dogFarm ul {
+        height: 433px;
+    }
+
+    #contain .dogFarm ul.cleanDogUl {
+        height: 410px;
+    }
+
+    #contain .dogFarm ul li {
+        height: 100px;
+    }
+
+    #contain .dogFarm ul li .dogText {
+        top: 2px;
+    }
+
+    #footNav {
+        height: 51px;
+        bottom: 0px;
+    }
+
+    #footNav span {
+        font-size: 14px;
+    }
+
+    #footNav span:nth-of-type(1) {
+        margin: 27px 0 0 4%;
+    }
+
+    #footNav span:nth-of-type(2) {
+        margin: 27px 0 0 14%;
+    }
+
+    #footNav span:nth-of-type(3) {
+        margin: 27px 0 0 13%;
+    }
+
+    #footNav span:nth-of-type(4) {
+        margin: 27px 0 0 12%;
+    }
+
+    /*开狗场*/
+    #openDogfloor, #harvest {
+        height: 298px;
+        font-size: 15px;
+    }
+
+    #openDogfloor .text, #harvest .text {
+        margin: 156px 0 0 0;
+    }
+
+    /*清洗*/
+    #cleaning {
+        height: 298px;
+    }
+
+    #cleaning .queding {
+        height: 42px;
+        margin: 209px auto;
+    }
+
+    /*输入喂养数*/
+    #feed {
+        height: 298px;
+        font-size: 16px;
+    }
+
+    #feed .text {
+        margin: 128px 0 0 0;
+    }
+
+    #feed input {
+        height: 34px;
+        margin: 10px auto;
+        border-radius: 17px;
+        text-indent: 17px;
+    }
+
+    #feed .pan {
+        width: 34px;
+        height: 34px;
+    }
+
+    #feed .queding {
+        height: 36px;
+        margin: 20px auto;
+    }
+
+    /*好友列表*/
+    #friendList {
+        height: 370px;
+    }
+
+    #friendList ul {
+        height: 226px;
+        margin: 70px auto;
+        padding: 2px 0 0 0;
+    }
+
+
+
+    #friendList ul li .top {
+        height: 48px;
+    }
+
+    #friendList ul li .top img {
+        height: 34px;
+        width: 34px;
+        margin: 7px 0 0 11px;
+    }
+
+    #friendList ul li .top .vipBox span.VipName {
+        font-size: 12px;
+        margin: 4px 0 0 8px;
+    }
+
+    #friendList ul li .top .vipBox span.num {
+        margin: 2px 0 0 24px;
+    }
+
+    #friendList ul li .top .btn {
+        width: 56px;
+        height: 23px;
+        line-height: 23px;
+        margin: 13px 5px 0 0;
+    }
+
+    #friendList ul li .bottom {
+        font-size: 10px;
+        margin: 3px 0 0 57px;
+    }
+
+    #friendList ul li .bottom .name {
+        display: block;
+        float: left;
+        width: 35px;
+        margin-right: 12px;
+    }
+
+    #friendList ul li .bottom .phone {
+        display: block;
+        float: left;
+    }
+
+    #friendList .bottomBtn {
+        margin: -56px auto;
+    }
+
+    #friendList .bottomBtn .onekeyclean {
+        height: 36px;
+    }
+
+    #friendList .bottomBtn .yaoqing {
+        height: 36px;
+    }
+
+    /*我的仓库*/
+    #wareHouse {
+        height: 370px;
+    }
+
+    #wareHouse ul {
+        height: 260px;
+        margin: 80px auto;
+    }
+
+    #wareHouse ul li {
+        height: 48px;
+        margin: 0px auto 4px;
+    }
+
+    #wareHouse ul li img {
+        height: 36px;
+        width: 36px;
+        float: left;
+        margin: 6px 0 0 10px;
+    }
+
+    #wareHouse ul li .vipBox .type {
+        font-size: 12px;
+        font-weight: bold;
+        margin: 0px 0 0 8px;
+    }
+
+    #wareHouse ul li .vipBox .num {
+        width: 56px;
+    }
+
+    #wareHouse ul li .vipBox p {
+        width: 74px;
+        line-height: 10px;
+        font-size: 10px;
+        margin-left: 4px;
+    }
+
+    #wareHouse ul li .btn {
+        width: 56px;
+        height: 27px;
+        line-height: 23px;
+        margin: 13px 5px 0 0;
+    }
+
+    #oneKeyCleans {
+        height: 38px;
+    }
+
+    /*确定提示框*/
+    #okInfo {
+        height: 370px;
+        font-size: 15px;
+    }
+
+    #okInfo .infoxiaoxi {
+        margin: 170px auto;
+    }
+
+    #okInfo .okInfoB {
+        height: 34px;
+        margin: -113px auto;
+    }
+
+    #footer {
+        height: 45px
+    }
+
+    #inBox, #gameRulePanel {
+        margin: auto
+    }
+
+    #inBox ul, #gameRulePanel ul {
+        top: 10%;
+        height: 259px;
+        margin: 69px auto 0
+    }
+
+    #tuBiao .intoBtn {
+        bottom: 5%
+    }
+}
+

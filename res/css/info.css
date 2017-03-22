@@ -1,0 +1,107 @@
+input{
+    border: none;
+}
+/*------提示消息------*/
+#infoBox {
+    position: absolute;
+    width: 100%;
+    height: 375px;
+    height: 55vh!important;
+    background: url(/res/image/infoBg.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    z-index: 100000001;
+    top: 12%;
+    left: 0;
+    text-align: center;
+    display: none;
+}
+
+#infoBox .close8 {
+    width: 31px;
+    height: 31px;
+    background: url(/res/image/close1.png) no-repeat center center;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 23%;
+    right: 9%;
+}
+#infoBox .infoText {
+    width: 80%;
+    color: #815f0f;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 28vh auto !important;
+    margin: 190px auto;
+}
+
+/*----提示消息-----*/
+
+/*--------验证码---------*/
+#checkCodeBox{
+    width: 100%;
+    height: 28%;
+    position: absolute;
+    z-index: 1000;
+    background: url(/res/image/farm/okInfo.png) no-repeat center center;
+    background-size: 100% 100%;
+    top: 15%;
+    display: none;
+    padding-top:45%;
+}
+#checkCodeBox .checkCodeBoxclose{
+    width: 31px;
+    height: 31px;
+    background: url(/res/image/close1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 24%;
+    right: 9%;
+    cursor: pointer;
+}
+#checkCodeBox input{
+    width: 27%;
+    margin: 0px 0 0 2%;
+    height: 30px;
+    line-height:30px;
+    background: #e1b649;
+    border-radius: 6px;
+    text-indent: 5px;
+    color: white;
+}
+#checkCodeBox input:nth-of-type(1){
+    margin-left: 21%;
+}
+#checkCodeBox .getCodeBtn0{
+    background: url(/res/image/getCheckCode0.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+#checkCodeBox .getCodeBtn1{
+    background: url(/res/image/getCheckCode1.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+#checkCodeBox .checkBtn{
+    width: 62%;
+    height: 40px;
+    height: 5.5vh !important;
+    margin: 40px auto 0px;
+    margin: 8vh auto 0px !important;
+    background: url(/res/image/farm/queding.png) no-repeat 0 0;
+    background-size: 100% 100%;
+}
+input.yZCode::-webkit-input-placeholder {
+    color: #835f04;
+}
+
+input.yZCode:-moz-placeholder {
+    color: #835f04;
+}
+
+input.yZCode::-moz-placeholder {
+    color: #835f04;
+}
+
+input.yZCode:-ms-input-placeholder {
+    color: #835f04;
+}
+/*--------验证码---------*/

@@ -1,0 +1,50 @@
+html{font-size:14px;}
+@media (min-width:600px) {
+  #login{width:600px;margin:0px auto;width:calc(100vh*9/16)!important;height:calc(100vh);}
+}
+body,form{margin:0px;padding:0px;font-family:'微软雅黑';}
+ul{margin:0px;padding:0px;list-style-type:none;}
+
+
+#login{margin:0px auto;width:100%;height:100%;height:100vh!important;background:url(/res/image/weifu/loginbg.png) no-repeat 0px 0px;background-size:100% 100%;position:relative;}
+.logo{height:30%;height:30vh;background:url(/res/image/weifu/dropDog.png) no-repeat center center;background-size:auto 80%;position:relative;
+      animation: myfirst 2s;
+-moz-animation: myfirst 2s;
+-webkit-animation: myfirst 2s;
+-o-animation: myfirst 2s;
+}
+
+@keyframes myfirst
+{
+from {top:-100px;}
+to {top:0px;}
+}
+
+@-moz-keyframes myfirst
+{
+from {top:-100px;}
+to {top:0px;}
+}
+
+@-webkit-keyframes myfirst 
+{
+from {top:-100px;}
+to {top:0px;}
+}
+
+@-o-keyframes myfirst
+{
+from {top:-100px;}
+to {top:0px;}
+}
+/*温馨提示*/
+.tiShi{
+	position: absolute;
+	width: 80%;
+	height: 240px;
+	height: 38vh !important;
+	left: 10%;
+	top: 32%;
+	background: url(/res/image/weifu/tishi.png) no-repeat 0 0;
+	background-size: 100% 100%;
+}
