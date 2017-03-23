@@ -1,0 +1,1197 @@
+
+[infor]2017-03-21 12:49:05.423 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:05.435 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:05.436 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:05.437 "shutstation"
+[infor]2017-03-21 12:49:16.940 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:16.941 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:16.942 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:16.942 "shutstation"
+[infor]2017-03-21 12:49:16.945 enter BizCall:/bizcall/user/User/login
+[infor]2017-03-21 12:49:17.50 准备执行SQL模板：select * from {m1} t where t.{phone=} 
+[infor]2017-03-21 12:49:17.51 {"m1":"account","phone":"15975596745"}
+[infor]2017-03-21 12:49:17.52 Execute SQL: select * from account t where t.`phone`=? 
+[infor]2017-03-21 12:49:17.53 "15975596745"
+[infor]2017-03-21 12:49:17.164 [DEBUG] calling api (user.User.login) used time: 0.183s
+[infor]2017-03-21 12:49:17.218 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:17.219 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:17.219 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:17.220 "shutstation"
+[infor]2017-03-21 12:49:17.250 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:17.250 []
+[infor]2017-03-21 12:49:17.251 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:17.294 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:49:17.295 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:49:17.295 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:49:17.296 1
+[infor]2017-03-21 12:49:17.332 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:49:17.332 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:49:17.333 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:49:17.333 1
+[infor]2017-03-21 12:49:17.375 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:17.375 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:17.376 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:17.376 "feeder"
+[infor]2017-03-21 12:49:17.418 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:17.418 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:49:17.419 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:17.419 1
+[infor]2017-03-21 12:49:17.420 2
+[infor]2017-03-21 12:49:17.467 准备执行SQL模板：select * from {m1} t  where t.{accid=}  order by t.id desc
+[infor]2017-03-21 12:49:17.468 {"m1":"sysmessage","accid":1}
+[infor]2017-03-21 12:49:17.468 Execute SQL: select * from sysmessage t  where t.`accid`=?  order by t.id desc
+[infor]2017-03-21 12:49:17.468 1
+[infor]2017-03-21 12:49:17.524 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:49:17.525 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:49:17.525 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:49:17.526 1
+[infor]2017-03-21 12:49:17.541 准备执行SQL模板：select * from {m1} t 
+[infor]2017-03-21 12:49:17.542 {"m1":"headimg"}
+[infor]2017-03-21 12:49:17.542 Execute SQL: select * from headimg t 
+[infor]2017-03-21 12:49:17.544 [DEBUG] calling api (user.User.home) used time: 0.299s
+[infor]2017-03-21 12:49:23.672 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:23.674 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:23.675 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:23.675 "shutstation"
+[infor]2017-03-21 12:49:23.683 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:23.684 []
+[infor]2017-03-21 12:49:23.684 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:23.693 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:49:23.693 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:49:23.694 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:49:23.694 1
+[infor]2017-03-21 12:49:23.698 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:49:23.698 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:49:23.699 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:49:23.700 1
+[infor]2017-03-21 12:49:23.704 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:23.704 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:23.705 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:23.705 "feeder"
+[infor]2017-03-21 12:49:23.708 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:23.708 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:49:23.709 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:23.709 1
+[infor]2017-03-21 12:49:23.710 2
+[infor]2017-03-21 12:49:23.713 准备执行SQL模板：select * from {m1} t  where t.{accid=}  order by t.id desc
+[infor]2017-03-21 12:49:23.714 {"m1":"sysmessage","accid":1}
+[infor]2017-03-21 12:49:23.715 Execute SQL: select * from sysmessage t  where t.`accid`=?  order by t.id desc
+[infor]2017-03-21 12:49:23.715 1
+[infor]2017-03-21 12:49:23.720 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:49:23.721 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:49:23.721 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:49:23.721 1
+[infor]2017-03-21 12:49:23.724 准备执行SQL模板：select * from {m1} t 
+[infor]2017-03-21 12:49:23.724 {"m1":"headimg"}
+[infor]2017-03-21 12:49:23.724 Execute SQL: select * from headimg t 
+[infor]2017-03-21 12:49:23.726 [DEBUG] calling api (user.User.home) used time: 0.047s
+[infor]2017-03-21 12:49:25.23 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:25.23 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:25.24 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:25.24 "shutstation"
+[infor]2017-03-21 12:49:25.133 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:25.133 []
+[infor]2017-03-21 12:49:25.134 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:25.139 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:49:25.142 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:49:25.143 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:49:25.144 1
+[infor]2017-03-21 12:49:25.148 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:49:25.150 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:49:25.152 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:49:25.154 1
+[infor]2017-03-21 12:49:25.159 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:25.159 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:25.160 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:25.161 "feeder"
+[infor]2017-03-21 12:49:25.165 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:25.168 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:49:25.170 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:25.170 1
+[infor]2017-03-21 12:49:25.171 2
+[infor]2017-03-21 12:49:25.213 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:49:25.214 {"m1":"land","accid":1}
+[infor]2017-03-21 12:49:25.215 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:49:25.216 1
+[infor]2017-03-21 12:49:25.297 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.297 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.298 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.298 1
+[infor]2017-03-21 12:49:25.299 0
+[infor]2017-03-21 12:49:25.338 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.339 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.339 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.340 1
+[infor]2017-03-21 12:49:25.341 1
+[infor]2017-03-21 12:49:25.344 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.344 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.345 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.346 1
+[infor]2017-03-21 12:49:25.346 2
+[infor]2017-03-21 12:49:25.348 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.348 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.349 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.349 1
+[infor]2017-03-21 12:49:25.349 3
+[infor]2017-03-21 12:49:25.352 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.352 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.353 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.354 1
+[infor]2017-03-21 12:49:25.355 4
+[infor]2017-03-21 12:49:25.357 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.357 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.358 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.358 1
+[infor]2017-03-21 12:49:25.358 5
+[infor]2017-03-21 12:49:25.360 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.361 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.361 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.361 1
+[infor]2017-03-21 12:49:25.362 10
+[infor]2017-03-21 12:49:25.363 准备执行SQL模板：select *  from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.364 {"m1":"bonetrack","":"","accid":1}
+[infor]2017-03-21 12:49:25.365 Execute SQL: select *  from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.365 1
+[infor]2017-03-21 12:49:25.389 准备执行SQL模板：select t.rate  from {m1} t where date_sub(curdate(),interval 1 day) = date(from_unixtime(`ratedate`)) 
+[infor]2017-03-21 12:49:25.390 {"m1":"rateset","":""}
+[infor]2017-03-21 12:49:25.390 Execute SQL: select t.rate  from rateset t where date_sub(curdate(),interval 1 day) = date(from_unixtime(`ratedate`)) 
+[infor]2017-03-21 12:49:25.435 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:25.435 {"m1":"sysparameter","name":"generalrate"}
+[infor]2017-03-21 12:49:25.436 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:25.436 "generalrate"
+[infor]2017-03-21 12:49:25.438 准备执行SQL模板：select * from {m1} t where t.{id=} 
+[infor]2017-03-21 12:49:25.439 {"m1":"account","id":1}
+[infor]2017-03-21 12:49:25.439 Execute SQL: select * from account t where t.`id`=? 
+[infor]2017-03-21 12:49:25.440 1
+[infor]2017-03-21 12:49:25.441 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:25.442 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:25.442 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:25.442 "feeder"
+[infor]2017-03-21 12:49:25.444 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:25.445 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:49:25.445 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:25.446 1
+[infor]2017-03-21 12:49:25.446 2
+[infor]2017-03-21 12:49:25.451 准备执行SQL模板：select * from {m1} t where t.{level=}
+[infor]2017-03-21 12:49:25.451 {"m1":"feeder","level":8}
+[infor]2017-03-21 12:49:25.452 Execute SQL: select * from feeder t where t.`level`=?
+[infor]2017-03-21 12:49:25.453 8
+[infor]2017-03-21 12:49:25.493 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.493 {"accid":1,"num":31.2,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":0,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.494 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.495 1
+[infor]2017-03-21 12:49:25.495 31.2
+[infor]2017-03-21 12:49:25.496 2
+[infor]2017-03-21 12:49:25.496 0.4
+[infor]2017-03-21 12:49:25.496 0
+[infor]2017-03-21 12:49:25.497 2.4
+[infor]2017-03-21 12:49:25.497 0
+[infor]2017-03-21 12:49:25.498 0
+[infor]2017-03-21 12:49:25.498 1490071765
+[infor]2017-03-21 12:49:25.551 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.551 {"accid":1,"num":72,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":1,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.553 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.553 1
+[infor]2017-03-21 12:49:25.554 72
+[infor]2017-03-21 12:49:25.555 2
+[infor]2017-03-21 12:49:25.556 0.4
+[infor]2017-03-21 12:49:25.556 0
+[infor]2017-03-21 12:49:25.557 2.4
+[infor]2017-03-21 12:49:25.557 0
+[infor]2017-03-21 12:49:25.558 1
+[infor]2017-03-21 12:49:25.558 1490071765
+[infor]2017-03-21 12:49:25.589 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.589 {"accid":1,"num":72,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":2,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.590 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.591 1
+[infor]2017-03-21 12:49:25.591 72
+[infor]2017-03-21 12:49:25.591 2
+[infor]2017-03-21 12:49:25.592 0.4
+[infor]2017-03-21 12:49:25.592 0
+[infor]2017-03-21 12:49:25.592 2.4
+[infor]2017-03-21 12:49:25.593 0
+[infor]2017-03-21 12:49:25.594 2
+[infor]2017-03-21 12:49:25.595 1490071765
+[infor]2017-03-21 12:49:25.622 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.623 {"accid":1,"num":72,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":3,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.624 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.625 1
+[infor]2017-03-21 12:49:25.625 72
+[infor]2017-03-21 12:49:25.626 2
+[infor]2017-03-21 12:49:25.626 0.4
+[infor]2017-03-21 12:49:25.626 0
+[infor]2017-03-21 12:49:25.627 2.4
+[infor]2017-03-21 12:49:25.627 0
+[infor]2017-03-21 12:49:25.627 3
+[infor]2017-03-21 12:49:25.628 1490071765
+[infor]2017-03-21 12:49:25.655 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.656 {"accid":1,"num":72,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":4,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.657 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.658 1
+[infor]2017-03-21 12:49:25.658 72
+[infor]2017-03-21 12:49:25.658 2
+[infor]2017-03-21 12:49:25.659 0.4
+[infor]2017-03-21 12:49:25.659 0
+[infor]2017-03-21 12:49:25.660 2.4
+[infor]2017-03-21 12:49:25.661 0
+[infor]2017-03-21 12:49:25.661 4
+[infor]2017-03-21 12:49:25.662 1490071765
+[infor]2017-03-21 12:49:25.689 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.689 {"accid":1,"num":48.024,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":5,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.691 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.691 1
+[infor]2017-03-21 12:49:25.691 48.024
+[infor]2017-03-21 12:49:25.692 2
+[infor]2017-03-21 12:49:25.692 0.4
+[infor]2017-03-21 12:49:25.692 0
+[infor]2017-03-21 12:49:25.693 2.4
+[infor]2017-03-21 12:49:25.693 0
+[infor]2017-03-21 12:49:25.694 5
+[infor]2017-03-21 12:49:25.694 1490071765
+[infor]2017-03-21 12:49:25.722 准备执行SQL模板：insert into {_m1} (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values({accid?},{num?},{basic?},{breeder?},{level?},{total?},{get?},{landindex?},{bonedate?})
+[infor]2017-03-21 12:49:25.723 {"accid":1,"num":72,"basic":2,"breeder":0.4,"level":0,"total":2.4,"get":0,"landindex":10,"bonedate":1490071765,"_m1":"bonetrack"}
+[infor]2017-03-21 12:49:25.724 Execute SQL: insert into bonetrack (`accid`,`num`,`basic`,`breeder`,`level`,`total`,`get`,`landindex`,`bonedate`) values(?,?,?,?,?,?,?,?,?)
+[infor]2017-03-21 12:49:25.724 1
+[infor]2017-03-21 12:49:25.724 72
+[infor]2017-03-21 12:49:25.725 2
+[infor]2017-03-21 12:49:25.725 0.4
+[infor]2017-03-21 12:49:25.726 0
+[infor]2017-03-21 12:49:25.726 2.4
+[infor]2017-03-21 12:49:25.727 0
+[infor]2017-03-21 12:49:25.728 10
+[infor]2017-03-21 12:49:25.728 1490071765
+[infor]2017-03-21 12:49:25.771 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.772 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.772 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.773 1
+[infor]2017-03-21 12:49:25.773 0
+[infor]2017-03-21 12:49:25.775 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.776 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.776 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.777 1
+[infor]2017-03-21 12:49:25.777 1
+[infor]2017-03-21 12:49:25.779 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.779 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.781 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.781 1
+[infor]2017-03-21 12:49:25.782 2
+[infor]2017-03-21 12:49:25.784 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.784 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.785 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.785 1
+[infor]2017-03-21 12:49:25.786 3
+[infor]2017-03-21 12:49:25.788 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.789 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.789 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.790 1
+[infor]2017-03-21 12:49:25.790 4
+[infor]2017-03-21 12:49:25.792 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.793 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.793 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.794 1
+[infor]2017-03-21 12:49:25.795 5
+[infor]2017-03-21 12:49:25.797 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.798 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:49:25.798 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:25.798 1
+[infor]2017-03-21 12:49:25.799 10
+[infor]2017-03-21 12:49:25.801 准备执行SQL模板：select t.id,t.account,t.name,t.phone,t2.bone,t3.image from {m1} t left join {m2} t2 ON t.id=t2.accid LEFT JOIN {m3} t3 ON t.headid=t3.id where t.{recommendid=} 
+[infor]2017-03-21 12:49:25.801 {"m1":"account","m2":"wealth","m3":"headimg","recommendid":1}
+[infor]2017-03-21 12:49:25.802 Execute SQL: select t.id,t.account,t.name,t.phone,t2.bone,t3.image from account t left join wealth t2 ON t.id=t2.accid LEFT JOIN headimg t3 ON t.headid=t3.id where t.`recommendid`=? 
+[infor]2017-03-21 12:49:25.802 1
+[infor]2017-03-21 12:49:25.831 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:49:25.831 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:49:25.832 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:49:25.832 1
+[infor]2017-03-21 12:49:25.834 [DEBUG] calling api (land.Land.home) used time: 0.753s
+[infor]2017-03-21 12:49:28.949 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:28.949 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:28.950 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:28.950 "shutstation"
+[infor]2017-03-21 12:49:28.960 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:28.961 []
+[infor]2017-03-21 12:49:28.961 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:28.978 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:49:28.978 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:49:28.979 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:49:28.980 1
+[infor]2017-03-21 12:49:28.986 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:49:28.987 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:49:28.988 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:49:28.990 1
+[infor]2017-03-21 12:49:28.993 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:28.993 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:28.994 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:28.995 "feeder"
+[infor]2017-03-21 12:49:29.2 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:29.2 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:49:29.3 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:29.4 1
+[infor]2017-03-21 12:49:29.5 2
+[infor]2017-03-21 12:49:29.12 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:49:29.13 {"m1":"land","accid":1}
+[infor]2017-03-21 12:49:29.14 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:49:29.16 1
+[infor]2017-03-21 12:49:29.29 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.29 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.30 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.30 1
+[infor]2017-03-21 12:49:29.32 0
+[infor]2017-03-21 12:49:29.34 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.34 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.39 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.39 1
+[infor]2017-03-21 12:49:29.40 1
+[infor]2017-03-21 12:49:29.44 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.45 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.47 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.47 1
+[infor]2017-03-21 12:49:29.60 2
+[infor]2017-03-21 12:49:29.66 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.67 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.69 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.69 1
+[infor]2017-03-21 12:49:29.70 3
+[infor]2017-03-21 12:49:29.72 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.72 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.73 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.73 1
+[infor]2017-03-21 12:49:29.74 4
+[infor]2017-03-21 12:49:29.78 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.78 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.79 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.79 1
+[infor]2017-03-21 12:49:29.80 5
+[infor]2017-03-21 12:49:29.86 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.87 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.90 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.91 1
+[infor]2017-03-21 12:49:29.93 10
+[infor]2017-03-21 12:49:29.97 准备执行SQL模板：select *  from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.98 {"m1":"bonetrack","":"","accid":1}
+[infor]2017-03-21 12:49:29.98 Execute SQL: select *  from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.99 1
+[infor]2017-03-21 12:49:29.104 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.105 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.105 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.106 1
+[infor]2017-03-21 12:49:29.106 0
+[infor]2017-03-21 12:49:29.111 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.112 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.112 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.113 1
+[infor]2017-03-21 12:49:29.114 1
+[infor]2017-03-21 12:49:29.119 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.120 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.121 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.122 1
+[infor]2017-03-21 12:49:29.123 2
+[infor]2017-03-21 12:49:29.126 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.127 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.127 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.130 1
+[infor]2017-03-21 12:49:29.131 3
+[infor]2017-03-21 12:49:29.135 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.136 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.136 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.137 1
+[infor]2017-03-21 12:49:29.137 4
+[infor]2017-03-21 12:49:29.139 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.140 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.141 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.144 1
+[infor]2017-03-21 12:49:29.146 5
+[infor]2017-03-21 12:49:29.149 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.149 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:49:29.150 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:29.150 1
+[infor]2017-03-21 12:49:29.151 10
+[infor]2017-03-21 12:49:29.153 准备执行SQL模板：select t.id,t.account,t.name,t.phone,t2.bone,t3.image from {m1} t left join {m2} t2 ON t.id=t2.accid LEFT JOIN {m3} t3 ON t.headid=t3.id where t.{recommendid=} 
+[infor]2017-03-21 12:49:29.154 {"m1":"account","m2":"wealth","m3":"headimg","recommendid":1}
+[infor]2017-03-21 12:49:29.159 Execute SQL: select t.id,t.account,t.name,t.phone,t2.bone,t3.image from account t left join wealth t2 ON t.id=t2.accid LEFT JOIN headimg t3 ON t.headid=t3.id where t.`recommendid`=? 
+[infor]2017-03-21 12:49:29.160 1
+[infor]2017-03-21 12:49:29.164 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:49:29.166 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:49:29.167 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:49:29.167 1
+[infor]2017-03-21 12:49:29.170 [DEBUG] calling api (land.Land.home) used time: 0.214s
+[infor]2017-03-21 12:49:37.88 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:37.89 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:37.89 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:37.90 "shutstation"
+[infor]2017-03-21 12:49:37.98 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:37.99 []
+[infor]2017-03-21 12:49:37.99 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:37.111 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:49:37.111 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:49:37.112 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:49:37.112 1
+[infor]2017-03-21 12:49:37.115 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:49:37.115 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:49:37.116 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:49:37.116 1
+[infor]2017-03-21 12:49:37.119 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:37.121 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:37.121 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:37.122 "feeder"
+[infor]2017-03-21 12:49:37.127 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:37.127 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:49:37.128 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:37.128 1
+[infor]2017-03-21 12:49:37.129 2
+[infor]2017-03-21 12:49:37.136 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:49:37.136 {"m1":"land","accid":1}
+[infor]2017-03-21 12:49:37.137 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:49:37.137 1
+[infor]2017-03-21 12:49:37.144 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.145 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.148 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.149 1
+[infor]2017-03-21 12:49:37.149 0
+[infor]2017-03-21 12:49:37.152 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.153 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.155 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.155 1
+[infor]2017-03-21 12:49:37.156 1
+[infor]2017-03-21 12:49:37.158 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.161 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.162 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.162 1
+[infor]2017-03-21 12:49:37.163 2
+[infor]2017-03-21 12:49:37.166 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.167 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.168 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.169 1
+[infor]2017-03-21 12:49:37.169 3
+[infor]2017-03-21 12:49:37.171 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.175 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.175 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.176 1
+[infor]2017-03-21 12:49:37.176 4
+[infor]2017-03-21 12:49:37.180 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.181 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.181 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.182 1
+[infor]2017-03-21 12:49:37.182 5
+[infor]2017-03-21 12:49:37.185 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.189 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.189 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.190 1
+[infor]2017-03-21 12:49:37.190 10
+[infor]2017-03-21 12:49:37.196 准备执行SQL模板：select *  from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.196 {"m1":"bonetrack","":"","accid":1}
+[infor]2017-03-21 12:49:37.197 Execute SQL: select *  from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.198 1
+[infor]2017-03-21 12:49:37.203 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.204 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.206 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.207 1
+[infor]2017-03-21 12:49:37.207 0
+[infor]2017-03-21 12:49:37.211 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.211 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.216 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.217 1
+[infor]2017-03-21 12:49:37.217 1
+[infor]2017-03-21 12:49:37.220 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.220 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.221 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.221 1
+[infor]2017-03-21 12:49:37.222 2
+[infor]2017-03-21 12:49:37.224 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.224 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.227 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.227 1
+[infor]2017-03-21 12:49:37.228 3
+[infor]2017-03-21 12:49:37.230 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.231 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.231 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.232 1
+[infor]2017-03-21 12:49:37.232 4
+[infor]2017-03-21 12:49:37.235 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.236 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.236 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.238 1
+[infor]2017-03-21 12:49:37.238 5
+[infor]2017-03-21 12:49:37.242 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.243 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:49:37.243 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:49:37.244 1
+[infor]2017-03-21 12:49:37.244 10
+[infor]2017-03-21 12:49:37.246 准备执行SQL模板：select t.id,t.account,t.name,t.phone,t2.bone,t3.image from {m1} t left join {m2} t2 ON t.id=t2.accid LEFT JOIN {m3} t3 ON t.headid=t3.id where t.{recommendid=} 
+[infor]2017-03-21 12:49:37.247 {"m1":"account","m2":"wealth","m3":"headimg","recommendid":1}
+[infor]2017-03-21 12:49:37.248 Execute SQL: select t.id,t.account,t.name,t.phone,t2.bone,t3.image from account t left join wealth t2 ON t.id=t2.accid LEFT JOIN headimg t3 ON t.headid=t3.id where t.`recommendid`=? 
+[infor]2017-03-21 12:49:37.248 1
+[infor]2017-03-21 12:49:37.255 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:49:37.258 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:49:37.259 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:49:37.261 1
+[infor]2017-03-21 12:49:37.264 [DEBUG] calling api (land.Land.home) used time: 0.168s
+[infor]2017-03-21 12:49:43.553 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:43.553 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:49:43.554 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:49:43.554 "shutstation"
+[infor]2017-03-21 12:49:43.565 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:43.566 []
+[infor]2017-03-21 12:49:43.567 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:49:43.573 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:49:43.574 {"m1":"account","m2":"headimg","id":"494"}
+[infor]2017-03-21 12:49:43.574 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:49:43.575 "494"
+[infor]2017-03-21 12:49:43.581 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:49:43.582 {"m1":"wealth","accid":"494"}
+[infor]2017-03-21 12:49:43.583 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:49:43.584 "494"
+[infor]2017-03-21 12:49:43.587 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:49:43.587 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:49:43.588 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:49:43.588 "feeder"
+[infor]2017-03-21 12:49:43.594 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:49:43.594 {"m1":"accprop","accid":"494","proid":2}
+[infor]2017-03-21 12:49:43.595 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:49:43.596 "494"
+[infor]2017-03-21 12:49:43.596 2
+[infor]2017-03-21 12:49:43.600 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:49:43.600 {"m1":"land","accid":"494"}
+[infor]2017-03-21 12:49:43.602 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:49:43.604 "494"
+[infor]2017-03-21 12:49:43.622 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:49:43.623 {"m1":"bonetrack","":"","accid":"494"}
+[infor]2017-03-21 12:49:43.623 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:49:43.624 "494"
+[infor]2017-03-21 12:49:43.645 [DEBUG] calling api (user.User.visitFriend) used time: 0.087s
+[infor]2017-03-21 12:50:01.272 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:50:01.272 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:50:01.273 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:50:01.273 "shutstation"
+[infor]2017-03-21 12:50:01.281 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:50:01.281 []
+[infor]2017-03-21 12:50:01.282 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:50:01.288 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:50:01.289 {"m1":"account","m2":"headimg","id":"494"}
+[infor]2017-03-21 12:50:01.289 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:50:01.290 "494"
+[infor]2017-03-21 12:50:01.294 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:50:01.294 {"m1":"wealth","accid":"494"}
+[infor]2017-03-21 12:50:01.295 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:50:01.295 "494"
+[infor]2017-03-21 12:50:01.298 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:50:01.298 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:50:01.299 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:50:01.299 "feeder"
+[infor]2017-03-21 12:50:01.302 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:50:01.302 {"m1":"accprop","accid":"494","proid":2}
+[infor]2017-03-21 12:50:01.303 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:50:01.303 "494"
+[infor]2017-03-21 12:50:01.304 2
+[infor]2017-03-21 12:50:01.308 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:50:01.308 {"m1":"land","accid":"494"}
+[infor]2017-03-21 12:50:01.309 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:50:01.309 "494"
+[infor]2017-03-21 12:50:01.313 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:50:01.313 {"m1":"bonetrack","":"","accid":"494"}
+[infor]2017-03-21 12:50:01.313 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:50:01.314 "494"
+[infor]2017-03-21 12:50:01.315 [DEBUG] calling api (user.User.visitFriend) used time: 0.039s
+[infor]2017-03-21 12:51:25.34 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:25.35 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:25.35 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:25.36 "shutstation"
+[infor]2017-03-21 12:51:25.45 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:25.45 []
+[infor]2017-03-21 12:51:25.46 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:25.52 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:25.52 {"m1":"account","m2":"headimg","id":"494"}
+[infor]2017-03-21 12:51:25.53 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:25.53 "494"
+[infor]2017-03-21 12:51:25.57 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:25.58 {"m1":"wealth","accid":"494"}
+[infor]2017-03-21 12:51:25.58 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:25.59 "494"
+[infor]2017-03-21 12:51:25.61 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:25.62 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:25.62 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:25.63 "feeder"
+[infor]2017-03-21 12:51:25.65 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:25.65 {"m1":"accprop","accid":"494","proid":2}
+[infor]2017-03-21 12:51:25.66 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:25.67 "494"
+[infor]2017-03-21 12:51:25.67 2
+[infor]2017-03-21 12:51:25.72 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:25.73 {"m1":"land","accid":"494"}
+[infor]2017-03-21 12:51:25.73 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:25.74 "494"
+[infor]2017-03-21 12:51:25.77 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:25.77 {"m1":"bonetrack","":"","accid":"494"}
+[infor]2017-03-21 12:51:25.78 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:25.78 "494"
+[infor]2017-03-21 12:51:25.79 [DEBUG] calling api (user.User.visitFriend) used time: 0.04s
+[infor]2017-03-21 12:51:29.386 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:29.387 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:29.387 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:29.387 "shutstation"
+[infor]2017-03-21 12:51:29.395 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:29.396 []
+[infor]2017-03-21 12:51:29.396 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:29.406 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:29.406 {"m1":"account","m2":"headimg","id":"494"}
+[infor]2017-03-21 12:51:29.407 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:29.407 "494"
+[infor]2017-03-21 12:51:29.411 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:29.411 {"m1":"wealth","accid":"494"}
+[infor]2017-03-21 12:51:29.412 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:29.412 "494"
+[infor]2017-03-21 12:51:29.419 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:29.419 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:29.420 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:29.420 "feeder"
+[infor]2017-03-21 12:51:29.424 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:29.424 {"m1":"accprop","accid":"494","proid":2}
+[infor]2017-03-21 12:51:29.425 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:29.425 "494"
+[infor]2017-03-21 12:51:29.426 2
+[infor]2017-03-21 12:51:29.430 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:29.430 {"m1":"land","accid":"494"}
+[infor]2017-03-21 12:51:29.431 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:29.431 "494"
+[infor]2017-03-21 12:51:29.436 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:29.437 {"m1":"bonetrack","":"","accid":"494"}
+[infor]2017-03-21 12:51:29.437 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:29.437 "494"
+[infor]2017-03-21 12:51:29.439 [DEBUG] calling api (user.User.visitFriend) used time: 0.046s
+[infor]2017-03-21 12:51:30.822 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:30.823 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:30.824 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:30.824 "shutstation"
+[infor]2017-03-21 12:51:30.831 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:30.832 []
+[infor]2017-03-21 12:51:30.833 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:30.840 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:30.840 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:51:30.841 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:30.841 1
+[infor]2017-03-21 12:51:30.845 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:30.846 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:51:30.846 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:30.847 1
+[infor]2017-03-21 12:51:30.849 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:30.850 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:30.850 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:30.851 "feeder"
+[infor]2017-03-21 12:51:30.853 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:30.854 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:51:30.854 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:30.855 1
+[infor]2017-03-21 12:51:30.855 2
+[infor]2017-03-21 12:51:30.859 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:30.860 {"m1":"land","accid":1}
+[infor]2017-03-21 12:51:30.860 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:30.861 1
+[infor]2017-03-21 12:51:30.865 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.865 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.866 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.866 1
+[infor]2017-03-21 12:51:30.867 0
+[infor]2017-03-21 12:51:30.869 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.869 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.870 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.871 1
+[infor]2017-03-21 12:51:30.871 1
+[infor]2017-03-21 12:51:30.874 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.874 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.875 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.875 1
+[infor]2017-03-21 12:51:30.876 2
+[infor]2017-03-21 12:51:30.877 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.878 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.879 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.879 1
+[infor]2017-03-21 12:51:30.879 3
+[infor]2017-03-21 12:51:30.881 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.882 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.882 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.883 1
+[infor]2017-03-21 12:51:30.883 4
+[infor]2017-03-21 12:51:30.889 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.890 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.891 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.891 1
+[infor]2017-03-21 12:51:30.892 5
+[infor]2017-03-21 12:51:30.894 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.895 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.896 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.896 1
+[infor]2017-03-21 12:51:30.896 10
+[infor]2017-03-21 12:51:30.900 准备执行SQL模板：select *  from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.902 {"m1":"bonetrack","":"","accid":1}
+[infor]2017-03-21 12:51:30.903 Execute SQL: select *  from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.903 1
+[infor]2017-03-21 12:51:30.906 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.906 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.907 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.907 1
+[infor]2017-03-21 12:51:30.908 0
+[infor]2017-03-21 12:51:30.909 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.910 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.914 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.914 1
+[infor]2017-03-21 12:51:30.915 1
+[infor]2017-03-21 12:51:30.918 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.918 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.919 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.919 1
+[infor]2017-03-21 12:51:30.920 2
+[infor]2017-03-21 12:51:30.922 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.922 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.923 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.924 1
+[infor]2017-03-21 12:51:30.925 3
+[infor]2017-03-21 12:51:30.929 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.930 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.931 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.932 1
+[infor]2017-03-21 12:51:30.932 4
+[infor]2017-03-21 12:51:30.934 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.934 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.935 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.935 1
+[infor]2017-03-21 12:51:30.936 5
+[infor]2017-03-21 12:51:30.939 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.940 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:51:30.940 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:30.941 1
+[infor]2017-03-21 12:51:30.941 10
+[infor]2017-03-21 12:51:30.943 准备执行SQL模板：select t.id,t.account,t.name,t.phone,t2.bone,t3.image from {m1} t left join {m2} t2 ON t.id=t2.accid LEFT JOIN {m3} t3 ON t.headid=t3.id where t.{recommendid=} 
+[infor]2017-03-21 12:51:30.944 {"m1":"account","m2":"wealth","m3":"headimg","recommendid":1}
+[infor]2017-03-21 12:51:30.945 Execute SQL: select t.id,t.account,t.name,t.phone,t2.bone,t3.image from account t left join wealth t2 ON t.id=t2.accid LEFT JOIN headimg t3 ON t.headid=t3.id where t.`recommendid`=? 
+[infor]2017-03-21 12:51:30.945 1
+[infor]2017-03-21 12:51:30.948 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:51:30.948 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:51:30.949 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:51:30.949 1
+[infor]2017-03-21 12:51:30.952 [DEBUG] calling api (land.Land.home) used time: 0.125s
+[infor]2017-03-21 12:51:36.577 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:36.579 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:36.581 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:36.582 "shutstation"
+[infor]2017-03-21 12:51:36.588 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:36.589 []
+[infor]2017-03-21 12:51:36.589 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:36.599 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:36.600 {"m1":"account","m2":"headimg","id":"581"}
+[infor]2017-03-21 12:51:36.600 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:36.601 "581"
+[infor]2017-03-21 12:51:36.604 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:36.605 {"m1":"wealth","accid":"581"}
+[infor]2017-03-21 12:51:36.610 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:36.612 "581"
+[infor]2017-03-21 12:51:36.615 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:36.615 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:36.616 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:36.616 "feeder"
+[infor]2017-03-21 12:51:36.620 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:36.621 {"m1":"accprop","accid":"581","proid":2}
+[infor]2017-03-21 12:51:36.623 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:36.623 "581"
+[infor]2017-03-21 12:51:36.624 2
+[infor]2017-03-21 12:51:36.628 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:36.628 {"m1":"land","accid":"581"}
+[infor]2017-03-21 12:51:36.629 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:36.630 "581"
+[infor]2017-03-21 12:51:36.638 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:36.639 {"m1":"bonetrack","":"","accid":"581"}
+[infor]2017-03-21 12:51:36.639 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:36.640 "581"
+[infor]2017-03-21 12:51:36.641 [DEBUG] calling api (user.User.visitFriend) used time: 0.056s
+[infor]2017-03-21 12:51:38.45 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:38.46 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:38.47 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:38.48 "shutstation"
+[infor]2017-03-21 12:51:38.56 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:38.57 []
+[infor]2017-03-21 12:51:38.57 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:38.68 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:38.69 {"m1":"account","m2":"headimg","id":"581"}
+[infor]2017-03-21 12:51:38.69 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:38.70 "581"
+[infor]2017-03-21 12:51:38.72 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:38.73 {"m1":"wealth","accid":"581"}
+[infor]2017-03-21 12:51:38.73 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:38.76 "581"
+[infor]2017-03-21 12:51:38.79 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:38.79 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:38.80 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:38.80 "feeder"
+[infor]2017-03-21 12:51:38.83 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:38.83 {"m1":"accprop","accid":"581","proid":2}
+[infor]2017-03-21 12:51:38.84 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:38.84 "581"
+[infor]2017-03-21 12:51:38.84 2
+[infor]2017-03-21 12:51:38.90 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:38.90 {"m1":"land","accid":"581"}
+[infor]2017-03-21 12:51:38.91 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:38.92 "581"
+[infor]2017-03-21 12:51:38.96 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:38.96 {"m1":"bonetrack","":"","accid":"581"}
+[infor]2017-03-21 12:51:38.97 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:38.97 "581"
+[infor]2017-03-21 12:51:38.98 [DEBUG] calling api (user.User.visitFriend) used time: 0.045s
+[infor]2017-03-21 12:51:39.486 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:39.486 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:39.487 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:39.487 "shutstation"
+[infor]2017-03-21 12:51:39.496 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:39.496 []
+[infor]2017-03-21 12:51:39.496 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:39.504 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:39.505 {"m1":"account","m2":"headimg","id":"581"}
+[infor]2017-03-21 12:51:39.506 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:39.506 "581"
+[infor]2017-03-21 12:51:39.509 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:39.509 {"m1":"wealth","accid":"581"}
+[infor]2017-03-21 12:51:39.510 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:39.510 "581"
+[infor]2017-03-21 12:51:39.513 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:39.513 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:39.514 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:39.515 "feeder"
+[infor]2017-03-21 12:51:39.518 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:39.518 {"m1":"accprop","accid":"581","proid":2}
+[infor]2017-03-21 12:51:39.519 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:39.519 "581"
+[infor]2017-03-21 12:51:39.520 2
+[infor]2017-03-21 12:51:39.523 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:39.524 {"m1":"land","accid":"581"}
+[infor]2017-03-21 12:51:39.524 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:39.524 "581"
+[infor]2017-03-21 12:51:39.528 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:39.529 {"m1":"bonetrack","":"","accid":"581"}
+[infor]2017-03-21 12:51:39.530 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:39.530 "581"
+[infor]2017-03-21 12:51:39.532 [DEBUG] calling api (user.User.visitFriend) used time: 0.04s
+[infor]2017-03-21 12:51:41.280 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:41.280 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:41.281 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:41.282 "shutstation"
+[infor]2017-03-21 12:51:41.288 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:41.289 []
+[infor]2017-03-21 12:51:41.290 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:41.298 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:41.298 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:51:41.299 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:41.299 1
+[infor]2017-03-21 12:51:41.303 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:41.303 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:51:41.305 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:41.306 1
+[infor]2017-03-21 12:51:41.309 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:41.309 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:41.310 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:41.310 "feeder"
+[infor]2017-03-21 12:51:41.313 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:41.313 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:51:41.314 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:41.314 1
+[infor]2017-03-21 12:51:41.314 2
+[infor]2017-03-21 12:51:41.320 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:41.321 {"m1":"land","accid":1}
+[infor]2017-03-21 12:51:41.321 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:41.322 1
+[infor]2017-03-21 12:51:41.325 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.326 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.326 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.327 1
+[infor]2017-03-21 12:51:41.327 0
+[infor]2017-03-21 12:51:41.329 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.330 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.331 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.331 1
+[infor]2017-03-21 12:51:41.332 1
+[infor]2017-03-21 12:51:41.334 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.334 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.335 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.335 1
+[infor]2017-03-21 12:51:41.336 2
+[infor]2017-03-21 12:51:41.338 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.338 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.339 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.339 1
+[infor]2017-03-21 12:51:41.340 3
+[infor]2017-03-21 12:51:41.343 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.344 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.344 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.345 1
+[infor]2017-03-21 12:51:41.345 4
+[infor]2017-03-21 12:51:41.347 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.348 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.348 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.349 1
+[infor]2017-03-21 12:51:41.349 5
+[infor]2017-03-21 12:51:41.352 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.353 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.353 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.354 1
+[infor]2017-03-21 12:51:41.354 10
+[infor]2017-03-21 12:51:41.357 准备执行SQL模板：select *  from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.358 {"m1":"bonetrack","":"","accid":1}
+[infor]2017-03-21 12:51:41.359 Execute SQL: select *  from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.359 1
+[infor]2017-03-21 12:51:41.361 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.362 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.362 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.363 1
+[infor]2017-03-21 12:51:41.363 0
+[infor]2017-03-21 12:51:41.365 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.365 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.366 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.366 1
+[infor]2017-03-21 12:51:41.367 1
+[infor]2017-03-21 12:51:41.369 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.370 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.370 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.371 1
+[infor]2017-03-21 12:51:41.371 2
+[infor]2017-03-21 12:51:41.373 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.374 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.375 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.375 1
+[infor]2017-03-21 12:51:41.375 3
+[infor]2017-03-21 12:51:41.378 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.378 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.379 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.379 1
+[infor]2017-03-21 12:51:41.379 4
+[infor]2017-03-21 12:51:41.381 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.382 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.383 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.384 1
+[infor]2017-03-21 12:51:41.384 5
+[infor]2017-03-21 12:51:41.387 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.387 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:51:41.388 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:41.388 1
+[infor]2017-03-21 12:51:41.389 10
+[infor]2017-03-21 12:51:41.390 准备执行SQL模板：select t.id,t.account,t.name,t.phone,t2.bone,t3.image from {m1} t left join {m2} t2 ON t.id=t2.accid LEFT JOIN {m3} t3 ON t.headid=t3.id where t.{recommendid=} 
+[infor]2017-03-21 12:51:41.391 {"m1":"account","m2":"wealth","m3":"headimg","recommendid":1}
+[infor]2017-03-21 12:51:41.391 Execute SQL: select t.id,t.account,t.name,t.phone,t2.bone,t3.image from account t left join wealth t2 ON t.id=t2.accid LEFT JOIN headimg t3 ON t.headid=t3.id where t.`recommendid`=? 
+[infor]2017-03-21 12:51:41.392 1
+[infor]2017-03-21 12:51:41.395 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:51:41.396 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:51:41.396 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:51:41.397 1
+[infor]2017-03-21 12:51:41.399 [DEBUG] calling api (land.Land.home) used time: 0.114s
+[infor]2017-03-21 12:51:44.37 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:44.38 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:44.40 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:44.41 "shutstation"
+[infor]2017-03-21 12:51:44.47 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:44.48 []
+[infor]2017-03-21 12:51:44.48 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:44.58 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:44.59 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:51:44.59 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:44.60 1
+[infor]2017-03-21 12:51:44.63 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:44.64 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:51:44.65 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:44.68 1
+[infor]2017-03-21 12:51:44.73 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:44.73 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:44.74 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:44.74 "feeder"
+[infor]2017-03-21 12:51:44.77 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:44.77 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:51:44.80 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:44.80 1
+[infor]2017-03-21 12:51:44.81 2
+[infor]2017-03-21 12:51:44.86 准备执行SQL模板：select * from {m1} t  where t.{accid=}  order by t.id desc
+[infor]2017-03-21 12:51:44.86 {"m1":"sysmessage","accid":1}
+[infor]2017-03-21 12:51:44.87 Execute SQL: select * from sysmessage t  where t.`accid`=?  order by t.id desc
+[infor]2017-03-21 12:51:44.87 1
+[infor]2017-03-21 12:51:44.95 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:51:44.95 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:51:44.96 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:51:44.96 1
+[infor]2017-03-21 12:51:44.99 准备执行SQL模板：select * from {m1} t 
+[infor]2017-03-21 12:51:44.100 {"m1":"headimg"}
+[infor]2017-03-21 12:51:44.100 Execute SQL: select * from headimg t 
+[infor]2017-03-21 12:51:44.102 [DEBUG] calling api (user.User.home) used time: 0.058s
+[infor]2017-03-21 12:51:47.913 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:47.913 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:47.914 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:47.914 "shutstation"
+[infor]2017-03-21 12:51:47.921 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:47.921 []
+[infor]2017-03-21 12:51:47.922 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:47.929 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:47.930 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:51:47.930 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:47.931 1
+[infor]2017-03-21 12:51:47.935 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:47.935 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:51:47.936 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:47.936 1
+[infor]2017-03-21 12:51:47.941 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:47.941 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:47.942 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:47.942 "feeder"
+[infor]2017-03-21 12:51:47.945 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:47.945 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:51:47.946 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:47.947 1
+[infor]2017-03-21 12:51:47.947 2
+[infor]2017-03-21 12:51:47.951 准备执行SQL模板：select * from {m1} t  where t.{accid=}  order by t.id desc
+[infor]2017-03-21 12:51:47.952 {"m1":"sysmessage","accid":1}
+[infor]2017-03-21 12:51:47.952 Execute SQL: select * from sysmessage t  where t.`accid`=?  order by t.id desc
+[infor]2017-03-21 12:51:47.953 1
+[infor]2017-03-21 12:51:47.958 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:51:47.958 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:51:47.960 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:51:47.960 1
+[infor]2017-03-21 12:51:47.964 准备执行SQL模板：select * from {m1} t 
+[infor]2017-03-21 12:51:47.965 {"m1":"headimg"}
+[infor]2017-03-21 12:51:47.965 Execute SQL: select * from headimg t 
+[infor]2017-03-21 12:51:47.967 [DEBUG] calling api (user.User.home) used time: 0.05s
+[infor]2017-03-21 12:51:49.448 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:49.449 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:49.450 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:49.450 "shutstation"
+[infor]2017-03-21 12:51:49.460 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:49.460 []
+[infor]2017-03-21 12:51:49.461 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:49.474 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:49.474 {"m1":"account","m2":"headimg","id":1}
+[infor]2017-03-21 12:51:49.475 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:49.476 1
+[infor]2017-03-21 12:51:49.479 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:49.482 {"m1":"wealth","accid":1}
+[infor]2017-03-21 12:51:49.484 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:49.484 1
+[infor]2017-03-21 12:51:49.487 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:49.487 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:49.488 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:49.488 "feeder"
+[infor]2017-03-21 12:51:49.497 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:49.497 {"m1":"accprop","accid":1,"proid":2}
+[infor]2017-03-21 12:51:49.498 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:49.499 1
+[infor]2017-03-21 12:51:49.500 2
+[infor]2017-03-21 12:51:49.504 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:49.504 {"m1":"land","accid":1}
+[infor]2017-03-21 12:51:49.505 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:49.505 1
+[infor]2017-03-21 12:51:49.512 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.513 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.514 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.514 1
+[infor]2017-03-21 12:51:49.515 0
+[infor]2017-03-21 12:51:49.517 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.518 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.518 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.519 1
+[infor]2017-03-21 12:51:49.520 1
+[infor]2017-03-21 12:51:49.523 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.524 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.524 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.525 1
+[infor]2017-03-21 12:51:49.525 2
+[infor]2017-03-21 12:51:49.528 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.529 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.529 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.530 1
+[infor]2017-03-21 12:51:49.530 3
+[infor]2017-03-21 12:51:49.533 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.534 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.535 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.535 1
+[infor]2017-03-21 12:51:49.536 4
+[infor]2017-03-21 12:51:49.539 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.541 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.542 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.542 1
+[infor]2017-03-21 12:51:49.543 5
+[infor]2017-03-21 12:51:49.545 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.545 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.547 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.548 1
+[infor]2017-03-21 12:51:49.549 10
+[infor]2017-03-21 12:51:49.552 准备执行SQL模板：select *  from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.553 {"m1":"bonetrack","":"","accid":1}
+[infor]2017-03-21 12:51:49.554 Execute SQL: select *  from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.554 1
+[infor]2017-03-21 12:51:49.558 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.559 {"m1":"bonetrack","landindex":0,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.560 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.561 1
+[infor]2017-03-21 12:51:49.562 0
+[infor]2017-03-21 12:51:49.564 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.564 {"m1":"bonetrack","landindex":1,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.565 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.566 1
+[infor]2017-03-21 12:51:49.566 1
+[infor]2017-03-21 12:51:49.569 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.570 {"m1":"bonetrack","landindex":2,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.571 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.571 1
+[infor]2017-03-21 12:51:49.572 2
+[infor]2017-03-21 12:51:49.576 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.577 {"m1":"bonetrack","landindex":3,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.578 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.578 1
+[infor]2017-03-21 12:51:49.579 3
+[infor]2017-03-21 12:51:49.581 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.582 {"m1":"bonetrack","landindex":4,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.582 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.583 1
+[infor]2017-03-21 12:51:49.583 4
+[infor]2017-03-21 12:51:49.585 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.585 {"m1":"bonetrack","landindex":5,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.586 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.589 1
+[infor]2017-03-21 12:51:49.590 5
+[infor]2017-03-21 12:51:49.594 准备执行SQL模板：select *  from {m1} t where t.{accid=} and t.{landindex=} and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.594 {"m1":"bonetrack","landindex":10,"accid":1,"":""}
+[infor]2017-03-21 12:51:49.595 Execute SQL: select *  from bonetrack t where t.`accid`=? and t.`landindex`=? and date(from_unixtime(t.bonedate))=date(now()) 
+[infor]2017-03-21 12:51:49.595 1
+[infor]2017-03-21 12:51:49.596 10
+[infor]2017-03-21 12:51:49.598 准备执行SQL模板：select t.id,t.account,t.name,t.phone,t2.bone,t3.image from {m1} t left join {m2} t2 ON t.id=t2.accid LEFT JOIN {m3} t3 ON t.headid=t3.id where t.{recommendid=} 
+[infor]2017-03-21 12:51:49.598 {"m1":"account","m2":"wealth","m3":"headimg","recommendid":1}
+[infor]2017-03-21 12:51:49.599 Execute SQL: select t.id,t.account,t.name,t.phone,t2.bone,t3.image from account t left join wealth t2 ON t.id=t2.accid LEFT JOIN headimg t3 ON t.headid=t3.id where t.`recommendid`=? 
+[infor]2017-03-21 12:51:49.599 1
+[infor]2017-03-21 12:51:49.606 准备执行SQL模板：select * from {m1} t where t.{accid=}
+[infor]2017-03-21 12:51:49.606 {"m1":"switchvideo","accid":1}
+[infor]2017-03-21 12:51:49.607 Execute SQL: select * from switchvideo t where t.`accid`=?
+[infor]2017-03-21 12:51:49.607 1
+[infor]2017-03-21 12:51:49.609 [DEBUG] calling api (land.Land.home) used time: 0.153s
+[infor]2017-03-21 12:51:57.344 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:57.345 {"m1":"sysparameter","name":"shutstation"}
+[infor]2017-03-21 12:51:57.345 Execute SQL: select * from sysparameter t where t.`name`=?
+[infor]2017-03-21 12:51:57.347 "shutstation"
+[infor]2017-03-21 12:51:57.356 准备执行SQL模板：select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:57.357 []
+[infor]2017-03-21 12:51:57.358 Execute SQL: select * from `sysnotice` ORDER BY id DESC 
+[infor]2017-03-21 12:51:57.366 准备执行SQL模板：select t.*,h.image from {m1} t JOIN {m2} h ON t.headid=h.id  where t.{id=} 
+[infor]2017-03-21 12:51:57.366 {"m1":"account","m2":"headimg","id":"581"}
+[infor]2017-03-21 12:51:57.367 Execute SQL: select t.*,h.image from account t JOIN headimg h ON t.headid=h.id  where t.`id`=? 
+[infor]2017-03-21 12:51:57.367 "581"
+[infor]2017-03-21 12:51:57.373 准备执行SQL模板：select * from {m1} t where t.{accid=} 
+[infor]2017-03-21 12:51:57.374 {"m1":"wealth","accid":"581"}
+[infor]2017-03-21 12:51:57.375 Execute SQL: select * from wealth t where t.`accid`=? 
+[infor]2017-03-21 12:51:57.375 "581"
+[infor]2017-03-21 12:51:57.382 准备执行SQL模板：select * from {m1} t where t.{name=}
+[infor]2017-03-21 12:51:57.382 {"m1":"prop","name":"feeder"}
+[infor]2017-03-21 12:51:57.383 Execute SQL: select * from prop t where t.`name`=?
+[infor]2017-03-21 12:51:57.384 "feeder"
+[infor]2017-03-21 12:51:57.386 准备执行SQL模板：select * from {m1} t where t.{accid=} and t.{proid=}
+[infor]2017-03-21 12:51:57.387 {"m1":"accprop","accid":"581","proid":2}
+[infor]2017-03-21 12:51:57.387 Execute SQL: select * from accprop t where t.`accid`=? and t.`proid`=?
+[infor]2017-03-21 12:51:57.388 "581"
+[infor]2017-03-21 12:51:57.389 2
+[infor]2017-03-21 12:51:57.396 准备执行SQL模板：select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from {m1} t JOIN landset l ON t.landindex=l.index where t.{accid=} 
+[infor]2017-03-21 12:51:57.396 {"m1":"land","accid":"581"}
+[infor]2017-03-21 12:51:57.397 Execute SQL: select t.landindex,t.wealth,l.type,l.deposit,l.capacity,l.dognum,t.starttime from land t JOIN landset l ON t.landindex=l.index where t.`accid`=? 
+[infor]2017-03-21 12:51:57.398 "581"
+[infor]2017-03-21 12:51:57.401 准备执行SQL模板：select sum([num]) as c from {m1} t where t.{accid=} and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:57.402 {"m1":"bonetrack","":"","accid":"581"}
+[infor]2017-03-21 12:51:57.403 Execute SQL: select sum(`num`) as c from bonetrack t where t.`accid`=? and date(from_unixtime(t.bonedate))=date(now()) and t.get=1 
+[infor]2017-03-21 12:51:57.404 "581"
+[infor]2017-03-21 12:51:57.409 [DEBUG] calling api (user.User.visitFriend) used time: 0.056s
