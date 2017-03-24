@@ -1,0 +1,18 @@
+<?php
+bjload("bjphp.vendor.ui.CachePage");
+class user_sale_cache extends \bjphp\vendor\ui\CachePage
+{
+	public function run($uicontext)
+	{
+		$this->_root =$uicontext;
+		$this->_this =$this->_root;
+		
+		$this->do_html("<!DOCTYPE html>\r\n<html>\r\n<head>\r\n\t<meta charset=\"utf-8\" />\r\n\t<title>转赠小狗</title>\r\n\t<meta name=\"screen-orientation\" content=\"portrait\">\t<!-- uc强制竖屏 -->\r\n\t<meta name=\"browsermode\" content=\"application\">\t\t<!-- UC应用模式 -->\r\n\t<meta name=\"full-screen\" content=\"yes\">\t\t\t\t<!-- UC强制全屏 -->\r\n\t<meta name=\"x5-orientation\" content=\"portrait\">\t\t<!-- QQ强制竖屏 -->\r\n\t<meta name=\"x5-fullscreen\" content=\"true\">\t\t\t<!-- QQ强制全屏 -->\r\n\t<meta name=\"x5-page-mode\" content=\"app\">\t\t\t<!-- QQ应用模式 -->\r\n\r\n\t<meta content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\" name=\"viewport\">\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/res/css/css1.css?\" />\r\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"/res/css/info.css\" />\r\n\t<script src=\"/res/js/jquery-1.11.2.min.js\" charset=\"utf-8\"></script>\r\n\t<script src=\"/uilib/bjui.js\" type=\"text/javascript\" charset=\"utf-8\"></script>\r\n\t<script src=\"/res/js/highcharts.js\" charset=\"utf-8\"></script>\r\n\t<!--<script src=\"/res/js/hui_sale.js\" charset=\"utf-8\"></script>-->\r\n\t<script src=\"/res/js/hui_sale_change.js\" charset=\"utf-8\"></script>\r\n</head>\r\n<body>\r\n<div id=\"page\">\r\n\t<div id=\"top\">\r\n\t\t<span><a href=\"/user/user/home\">返回</a></span>\r\n\t\t<label><img src=\"");
+		$v1=( $this->get_prop($this->_this,"headimg") );
+		$this->do_html($this->encode($v1));
+		$this->do_html("\"></label>\r\n\t</div>\r\n\t<div id=\"reg_div\" class=\"box-sizing\">\r\n\t\t<div class=\"reg box-sizing\">\r\n\t\t\t<ul class=\"reg_button\">\r\n\t\t\t\t<li><a href=\"/user/user/register\">开发新狗场</a></li>\r\n\t\t\t\t<li class=\"on\"><a href=\"/user/user/sale\">转赠小狗</a></li>\r\n\t\t\t\t<li><a href=\"/user/user/salelist\">转赠记录</a></li>\r\n\t\t\t</ul>\r\n\t\t\t<div class=\"reg_content box-sizing\">\r\n\t\t\t\t<div class=\"border box-sizing \">\r\n\t\t\t\t\t<form class=\"form\">\r\n\t\t\t\t\t\t<div class=\"f_label\">狗仔库存数量<label>");
+		$v2=( $this->get_prop($this->_this,"warehouse") );
+		$this->do_html($this->encode($v2));
+		$this->do_html("</label><br>\r\n\t\t\t\t\t\t\t转赠须要收10%手续费</div>\r\n\t\t\t\t\t\t<input type=\"text\" class=\"giveuser\" value=\"\" placeholder=\"转赠数量必须是10的倍数\">\r\n\t\t\t\t\t\t<input type=\"text\" class=\"myuser\" placeholder=\"目标手机号\">\r\n\t\t\t\t\t\t<input type=\"text\" class=\"name\" placeholder=\"目标姓名\">\r\n\t\t\t\t\t\t<div class=\"on_off\">\r\n\t\t\t\t\t\t\t<div class=\"slideThree\">\r\n\t\t\t\t\t\t\t\t<input type=\"checkbox\" value=\"1\" id=\"slideThree\" name=\"check\" />\r\n\t\t\t\t\t\t\t\t<label for=\"slideThree\"></label>\r\n\t\t\t\t\t\t\t</div>超级转增\r\n\t\t\t\t\t\t</div>\r\n\t\t\t\t\t\t<span class=\"botton subBtn\">确认</span>\r\n\t\t\t\t\t</form>\r\n\t\t\t\t</div>\r\n\t\t\t\t<div class=\"t_bg\"><img src=\"/res/images/t_bg.png\"></div>\r\n\t\t\t</div>\r\n\t\t</div>\r\n\t</div>\r\n\t<!-------验证码框------->\r\n\t<div id=\"checkCodeBox\">\r\n\t\t<span class=\"checkCodeBoxclose\"></span>\r\n\t\t<input type=\"text\" name=\"checkcode\" id=\"checkcode\" class=\"yZCode\" placeholder=\"输入验证码\" />\r\n\t\t<input type=\"button\" id=\"btn\" disabled-id=\"0\" value=\"获取验证码\" class=\"getCodeBtn getCodeBtn0\" />\r\n\t\t<div class=\"checkBtn\"></div>\r\n\t</div>\r\n\t<!-------验证码框------->\r\n\r\n\t<!--提示框-->\r\n\t<div id=\"infoBox\">\r\n\t\t<span class=\"close8\"></span>\r\n\t\t<div class=\"infoText\">提示信息</div>\r\n\t</div>\r\n\t<!--提示框-->\r\n\r\n</div>\r\n</body>\r\n</html>");
+	}
+}

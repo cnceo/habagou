@@ -1,0 +1,58 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+127.0.0.1 www.bos.com
+127.0.0.1 test.bos.com
+127.0.0.1 demo.bos.com
+127.0.0.1 mydee.bos.com
+127.0.0.1 designer.bos.com
+127.0.0.1 wanghong.bos.com
+127.0.0.1 liudn.bos.com
+127.0.0.1 kailebao.bos.com
+127.0.0.1 console.bos.com
+127.0.0.1 system.bos.com
+127.0.0.1 org.bos.com
+127.0.0.1 flow.bos.com
+127.0.0.1 pack.bos.com
+127.0.0.1 album.bos.com
+127.0.0.1 article.bos.com
+127.0.0.1 qa.bos.com
+127.0.0.1 doc.bos.com
+127.0.0.1 ck.bos.com
+127.0.0.1 studio.bos.com
+127.0.0.1 weixin.bos.com
+127.0.0.1 admin.bos.com
+127.0.0.1 biz.bos.com
+127.0.0.1 business.bos.com
+127.0.0.1 liudnconsole.bos.com
+127.0.0.1 klbconsole.bos.com
+127.0.0.1 klbbiz.bos.com
+127.0.0.1 klbclient.bos.com
+127.0.0.1 baijienet.bos.com
+127.0.0.1 baijieconsole.bos.com
+127.0.0.1 kailebaoconsole.bos.com
+127.0.0.1 crm.bos.com
+127.0.0.1 crmadmin.bos.com
+127.0.0.1 dev.bos.com
+127.0.0.1 devconsole.bos.com
+127.0.0.1 oa.bos.com
+127.0.0.1 oaconsole.bos.com
+127.0.0.1 www.usermgr.com
