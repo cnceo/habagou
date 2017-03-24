@@ -19,7 +19,7 @@
     <script src="/res/js/hui_tool.js" type="text/javascript" charset="utf-8"></script>
     <script src="/res/js/fastclick.js" type="text/javascript" charset="utf-8"></script>
     <!--<script src="/res/js/newland.js" type="text/javascript" charset="utf-8"></script>-->
-    <script src="/res/js/newland.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/res/js/newland.min.js" type="text/javascript" charset="utf-8"></script>
     <style>
         /*------------------加号-----------------*/
         .new_gcn ul li .jiahao {

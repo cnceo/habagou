@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="/res/css/css.css?t=2" />
     <link rel="stylesheet" type="text/css" href="/res/css/hui_main.css?t=1"/>
     <link rel="stylesheet" type="text/css" href="../../res/css/yanzhengma.css"/>
-    <script src="/res/js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/res/js/jquery-1.11.2.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="/res/js/hui_tool.js" type="text/javascript" charset="utf-8"></script>
     <script src="/uilib/bjui.js" type="text/javascript" charset="utf-8"></script>
     <script src="/res/js/hui_main.js" type="text/javascript" charset="utf-8"></script>
@@ -66,7 +66,10 @@
 
 
     <script type="text/javascript">
+    	
         window.onload = function(){
+        	
+        	
         	var screen = $('#screen');
         	//全局报错
         	bjui_config.error_report=function(userexception, src, param, msg, fnFail){
@@ -276,12 +279,8 @@
 						}
 					}
 				}
-		    })
-            
-            
-            
-            
-            
+		   })
+		   
         }
     </script>
 
